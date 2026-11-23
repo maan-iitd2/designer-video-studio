@@ -118,6 +118,12 @@ function openReference(r){
   if(r.post)links.push(link("Creator’s post ↗",r.post));
   if(r.skill)links.push(link("Skill repository ↗",r.skill));
   $("ref-links").replaceChildren(...links);
+  $("edit-copy-status").hidden=true;
+  $("ref-remake").href="remakes/"+encodeURIComponent(r.id)+".zip";
+  $("ref-remake").download=r.id+".zip";
+  $("ref-basis").textContent=r.remakeBasis==="measured"
+    ?"Uses the clip’s measured length, sampled colors and estimated cuts."
+    :"Uses suggested timing and colors from the indexed style.";
   const draft=saved.get(r.id)||{idea:"",assets:"",format:"Match reference",script:"Shape my notes"};
   $("ref-idea").value=draft.idea;$("ref-assets").value=draft.assets;$("ref-output").value=draft.format;$("ref-script").value=draft.script;
   $("ref-brief-details").open=false;$("ref-status").textContent="";adapt();
@@ -134,6 +140,17 @@ dialog.addEventListener("close",()=>{
   if(returnFocus?.isConnected)returnFocus.focus();else if(location.hash==="#references")$("ref-query").focus({preventScroll:true});
 });
 $("ref-close").addEventListener("click",()=>dialog.close());
+$("copy-edit-request").addEventListener("click",async()=>{
+  const idea=$("ref-idea").value.trim(),assets=$("ref-assets").value.trim();
+  const prompt=["Help me edit the attached HyperFrames edit.json for "+selected.title+".",
+    idea?"My idea or words: "+idea:"Ask me what this video is for and what words or assets I already have.",
+    assets?"My assets: "+assets:"",
+    "Script preference: "+$("ref-script").value+". Format preference: "+$("ref-output").value+".",
+    "Work within this project's included components. Change only the fields needed for my request. Preserve credits, provenance and the JSON structure. Use my supplied facts and filenames. Return the revised edit.json for my local renderer."].filter(Boolean).join("\n");
+  const status=$("edit-copy-status");status.hidden=false;
+  try{await navigator.clipboard.writeText(prompt);status.textContent="Copied. Attach edit.json and paste the request into Claude."}
+  catch{status.textContent=prompt}
+});
 $("ref-copy").addEventListener("click",async()=>{
   adapt();const field=$("ref-text");
   try{await navigator.clipboard.writeText(field.value);$("ref-status").textContent="Copied. Paste into Claude and attach your own material."}

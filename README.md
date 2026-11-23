@@ -4,6 +4,26 @@
 
 ## Make a film in Claude chat
 
+**Start with an editable project.** Open a reference and choose **Download editable HyperFrames project**, or [download all 240 projects](https://maan-iitd2.github.io/designer-video-studio/remakes/all-projects.zip) and open `Start.html` after extracting. Each project contains an `Edit.html` shot editor. Change wording, colors, timing or order, add your own media and save over the project's `edit.json`. To get Claude's help with copy, attach just that file to a regular chat and ask for the specific change. A preview or export uses no model tokens.
+
+For preview and export, install Python 3.9+ and Node.js 22+. In the extracted project run `python project.py preview` or `python project.py render`. On Windows, double-click **Preview.cmd** or **Render.cmd**. Render writes `film.mp4`. The first run fetches the pinned HyperFrames CLI and playback uses GSAP from its CDN.
+
+Of the 240 projects, 163 use the original clip's measured length and dimensions, estimated cut points and sampled colors. The other 77 start with an editable nine-second treatment based on catalog attributes. Studio selects motion components for both groups. Creator source links are in each project. Illustrations, charts and text in the starter are editable examples. Exact source footage can also be assembled locally.
+
+### Local reference footage
+
+The November 23 download pass saved 167 verified MP4s from 163 posts (2.35 GB decimal). On 59 posts the media exposed no download setting, 12 had no verifiable video belonging to that post and six post pages were unavailable. Availability can change. Original MP4s and the download manifest stay in the local `downloads/x/` folder.
+
+From a clone of this repo with Python and FFmpeg (including ffprobe) on PATH:
+
+```sh
+python scripts/download_references.py gonzalomacagno-2de1a9
+python scripts/remake.py gonzalomacagno-2de1a9 --source-cut
+python films/gonzalomacagno-2de1a9-source/project.py preview
+```
+
+Omit the ID on the downloader to check the whole collection. It checks the post's download setting, verifies MP4s, reuses existing complete files and records results by creator and post. `--source-cut` puts the actual footage into an editable sequence with source trim points. For a post with multiple videos, pass `--media-position 2` to the project generator to use the second video. For an animation built from editable components, run `python scripts/remake.py ID`. To update measured timing and palette profiles after downloading new clips, run `python scripts/analyze_references.py`. Public sharing of an edited film depends on the terms for the footage, music and assets you use.
+
 The [searchable Prompt Motion references](https://maan-iitd2.github.io/designer-video-studio/#references) include 240 films from 219 creator handles in the November 23, 2026 snapshot. Search by subject, creator, visual attributes or tool, then filter by format and prompt or skill. Each result opens its original creator post on demand and has a customizable Claude adaptation brief. [Try paper collage](https://maan-iitd2.github.io/designer-video-studio/?q=paper+collage#references).
 
 1. Open a film and choose its format, script mode and subject.

@@ -27,6 +27,8 @@ Treat the designer as the creative director. Speak in her language. Open with th
 
 ## Spend discipline
 
+For a Prompt Motion reference, start with its downloadable project or run `python scripts/remake.py ID`. Read only that project's edit.json. Adjust its copy, timings, palette and supplied asset paths, then run project.py preview or render. Keep the original attribution and timing provenance. A designer in regular Claude chat can attach just edit.json and save the revised file in the same project. Generate fresh animation code only for a requested effect the selected components cannot express.
+
 For an aesthetic review, aim for 9/10 per applicable axis: composition and hierarchy, typography and phone readability, visual originality and fit to the story, and motion and timing. Review the rendered frames and the transitions between them. Check audio sync when audio is present. Cite the timestamp of the weakest decision and revise that beat, then compare before and after. Mark anything you could not view as unverified. Let the designer decide if the film lands.
 
 Use a lower-cost available model for intake, scripting, asset inventory and filling scene parameters. If the host cannot switch models, keep the current task narrow and tell her how to choose a smaller available model if it matters. One coordinator by default. For a difficult shot, price a single targeted escalation. Avoid generating bespoke shot engines, repeated reference studies or open-ended critic passes.

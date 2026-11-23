@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shot editor · Motion Index</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f3eb;color:#202820;font:17px/1.45 "DM Sans",system-ui,sans-serif}main{max-width:960px;margin:auto;padding:32px clamp(18px,5vw,62px) 80px}header{border-top:5px solid #294439;border-bottom:1px solid #9daca1;padding:18px 0 24px}h1{font:normal clamp(34px,6.8vw,72px)/1.01 "Instrument Serif",Georgia,serif;letter-spacing:-.054em;max-width:18ch;margin:20px 0 12px}p{margin:8px 0}.tools{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 10px}button,.open{font:inherit;color:inherit;background:transparent;border:1px solid #77847a;padding:7px 12px;border-radius:3px;cursor:pointer}#save{background:#294439;color:white}.open{position:relative}.open input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}.open:focus-within,:focus-visible{outline:3px solid #267baf;outline-offset:3px}#status{font-size:.9rem;color:#36493e}details{border-bottom:1px solid #bbc2b8}summary{display:flex;align-items:center;gap:12px;padding:15px 0;cursor:pointer}summary strong{flex:1;font:normal 24px/1.1 Georgia,serif}summary small{font:13px monospace}.swatch{height:32px;width:32px;border:1px solid #838c82;flex:none}.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(195px,100%),1fr));gap:12px;margin:0 0 18px}label.field{display:grid;font:13px/1.4 system-ui,sans-serif;gap:4px}input,select{min-width:0;width:100%;background:#fffef9;color:inherit;border:1px solid #94a095;border-radius:3px;padding:8px;font:16px system-ui}input[type=color]{height:39px;padding:3px}button:disabled{opacity:.4;cursor:default}footer{margin-top:24px;font-size:.9rem}#runtime{font:14px monospace}.moves{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap}.moves button{font-size:.88rem}
+</style></head>
+<body><main><header><span>Motion Index / Shot editor</span><h1 id="title"></h1><p id="basis"></p>
+<div class="tools"><button id="save">Save edit.json</button><label class="open">Open saved edit<input id="open" type="file" accept=".json" aria-label="Open saved edit"></label></div>
+<p id="status" role="status">Save edit.json in the extracted project folder. Then run Preview or Render.</p></header>
+<p id="runtime"></p><section id="timeline" aria-label="Editable shots"></section>
+<footer>For your own footage, enter a path such as assets/demo.mp4 and put the file in that folder. Use a soundtrack you have permission to include.</footer>
+</main><script type="application/json" id="seed">__STUDIO_EDIT__</script><script>
+const by=id=>document.getElementById(id);
+let edit=JSON.parse(by("seed").textContent);
+const componentNames=new Set(edit.shots.map(s=>s.component));
+function el(tag,text){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n}
+function field(box,label,value,type,set){
+  const wrap=el("label",label);wrap.className="field";
+  const input=el("input");input.type=type;
+  if(type==="number"){input.step="any";input.required=true}
+  if(type==="checkbox")input.checked=value;else input.value=value??"";
+  input.addEventListener("input",()=>{if(!input.reportValidity())return;set(type==="checkbox"?input.checked:type==="number"?Number(input.value):input.value)});
+  wrap.append(input);box.append(wrap);return input;
+}
+function formatTime(n){return Number(n.toFixed(2))+" s"}
+function refresh(openAt){
+  by("title").textContent=edit.title;by("basis").textContent=edit.basis+".";
+  const timeline=by("timeline");timeline.replaceChildren();
+  const times=[];
+  function timing(){
+    let t=0;
+    edit.shots.forEach((s,i)=>{if(times[i])times[i].textContent=formatTime(t);t+=s.seconds});
+    by("runtime").textContent=edit.shots.length+" shots · "+formatTime(t)+" · "+edit.width+" × "+edit.height;
+  }
+  edit.shots.forEach((s,i)=>{
+    const card=el("details"),summary=el("summary"),swatch=el("span");
+    const paint=()=>{swatch.style.background="linear-gradient(90deg,"+s.background+" 65%,"+s.accent+" 65%)"};
+    swatch.className="swatch";paint();times.push(el("small"));
+    summary.append(swatch,el("strong",s.component.replaceAll("-"," ")),times[i]);card.append(summary);card.open=i===openAt;
+    const fields=el("div");fields.className="fields";card.append(fields);
+    const duration=field(fields,"Duration in seconds",s.seconds,"number",v=>{s.seconds=v;timing()});duration.min=".001";
+    field(fields,"Background",s.background,"color",v=>{s.background=v;paint()});
+    field(fields,"Accent",s.accent,"color",v=>{s.accent=v;paint()});
+    field(fields,"Replace with local media",s.media,"text",v=>s.media=v);
+    const trim=field(fields,"Video trim-in (seconds)",s.source_start||0,"number",v=>s.source_start=v);trim.min="0";
+    field(fields,"Include video’s own audio",s.media_has_audio||false,"checkbox",v=>s.media_has_audio=v);
+    for(const [key,v] of Object.entries(s.variables)){
+      field(fields,key.replaceAll("_"," "),v,typeof v==="boolean"?"checkbox":typeof v==="number"?"number":"text",value=>s.variables[key]=value);
+    }
+    const actions=el("div");actions.className="moves";
+    for(const [label,disabled,run] of [
+      ["Move earlier",i===0,()=>{[edit.shots[i-1],edit.shots[i]]=[s,edit.shots[i-1]];refresh(i-1)}],
+      ["Move later",i===edit.shots.length-1,()=>{[edit.shots[i+1],edit.shots[i]]=[s,edit.shots[i+1]];refresh(i+1)}],
+      ["Duplicate",false,()=>{edit.shots.splice(i+1,0,structuredClone(s));refresh(i+1)}],
+      ["Remove",edit.shots.length===1,()=>{edit.shots.splice(i,1);refresh(Math.min(i,edit.shots.length-1))}]
+    ]){const b=el("button",label);b.disabled=disabled;b.onclick=run;actions.append(b)}
+    card.append(actions);timeline.append(card);
+  });
+  const audio=el("div");audio.className="fields";field(audio,"Soundtrack file",edit.audio,"text",v=>edit.audio=v);timeline.append(audio);timing();
+}
+by("open").onchange=async e=>{
+  const f=e.target.files[0];if(!f)return;
+  try{const next=JSON.parse(await f.text());if(next.reference.id!==edit.reference.id||!Array.isArray(next.shots)||!next.shots.length||!next.shots.every(s=>componentNames.has(s.component)&&Number.isFinite(s.seconds)&&s.seconds>0&&s.variables&&typeof s.variables==="object"))throw Error();
+    edit=next;refresh(0);by("status").textContent="Loaded "+f.name;
+  }catch{by("status").textContent="Open an edit.json from this project."}finally{e.target.value=""}
+};
+by("save").onclick=async()=>{
+  const invalid=by("timeline").querySelector("input:invalid");if(invalid){invalid.closest("details").open=true;invalid.reportValidity();return}
+  const data=JSON.stringify(edit,null,2)+"\n";
+  if(window.showSaveFilePicker){try{const handle=await showSaveFilePicker({suggestedName:"edit.json",types:[{description:"Studio edit",accept:{"application/json":[".json"]}}]});
+    const stream=await handle.createWritable();await stream.write(data);await stream.close();by("status").textContent="Saved. Run Preview or Render in the project folder.";return;
+  }catch(e){if(e.name==="AbortError")return}}
+  const a=el("a");a.href=URL.createObjectURL(new Blob([data],{type:"application/json"}));a.download="edit.json";a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),3000);by("status").textContent="Replace the project’s edit.json with the downloaded file.";
+};refresh(0);
+</script></body></html>
