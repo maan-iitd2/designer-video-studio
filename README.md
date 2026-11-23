@@ -4,6 +4,8 @@
 
 ## Make a film in Claude chat
 
+The [searchable Prompt Motion references](https://maan-iitd2.github.io/designer-video-studio/#references) include 240 films from 219 creator handles in the November 23, 2026 snapshot. Search by subject, creator, visual attributes or tool, then filter by format and prompt or skill. Each result opens its original creator post on demand and has a customizable Claude adaptation brief. [Try paper collage](https://maan-iitd2.github.io/designer-video-studio/?q=paper+collage#references).
+
 1. Open a film and choose its format, script mode and subject.
 2. Select **Copy Claude brief**, open Claude and paste it into a new chat. Attach your own photos or sketches. **Save reference frames** gives you three frames to attach if the layout matters.
 3. Review the short animated pilot before asking for the full cut. The brief asks for an editable HTML artifact. MP4 output depends on the tools available in your chat.

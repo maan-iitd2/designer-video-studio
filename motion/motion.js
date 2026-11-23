@@ -10,13 +10,6 @@ let group = "All films";
 let lastButton;
 let hoverEnabled = !matchMedia("(prefers-reduced-motion: reduce)").matches;
 const sources = new Map();
-const external = [
-  ["Engraving-style ad","Leon Lin · Editorial photos and painted marks","https://prompt-motion.com/lexnlin-038035"],
-  ["Photo print app launch","@twoclipping · A grid folds open to reveal a print","https://prompt-motion.com/twoclipping-221cab"],
-  ["Overthinking","Gizem Akdag · A concept-led kinetic type study","https://prompt-motion.com/gizakdag-cf4ae6"],
-  ["Talking-head clip edit","@sab8a · Speech, captions and graphic inserts","https://prompt-motion.com/sab8a-364a5a"],
-  ["Animated business explainer","@alex_prompter · Five beats for explaining a business","https://prompt-motion.com/alex-prompter-1ea044"]
-];
 function webLink(title,href){
   const a=el("a",title);a.href=href;a.target="_blank";a.rel="noopener";return a;
 }
@@ -142,7 +135,6 @@ $("copy").addEventListener("click",async()=>{
 window.addEventListener("hashchange",fromHash);
 document.addEventListener("visibilitychange",()=>{if(document.hidden){stopAll();$("player").pause()}});
 async function start(){
-  for(const [title,detail,url] of external){const a=webLink("",url);a.className="ref-link";const label=el("span");label.append(el("strong",title),el("small",detail));a.append(label,el("span","↗"));$("ref-list").append(a)}
   const res=await fetch("films.json");if(!res.ok)throw Error();studies=await res.json();
   for(const genre of ["All films",...new Set(studies.map(s=>s.genre))]){
     const b=el("button",genre);b.type="button";b.className="chip";

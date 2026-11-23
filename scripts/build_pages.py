@@ -32,7 +32,7 @@ for line in (library / "catalog.jsonl").read_text(encoding="utf-8").splitlines()
             shutil.copyfile(library / relative, dest)
 
 motion = root / "motion"
-for name in ("index.html", "motion.css", "motion.js", "films.json"):
+for name in ("index.html", "motion.css", "motion.js", "films.json", "reference-index.json", "references.js", "references.css"):
     shutil.copyfile(motion / name, site / name)
 shutil.copytree(motion / "previews", site / "previews", dirs_exist_ok=True)
 for study in json.loads((motion / "films.json").read_text(encoding="utf-8")):

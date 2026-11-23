@@ -5,6 +5,7 @@
 <meta name="theme-color" content="#f8f7f2"><meta name="description" content="Watch original motion studies, choose a visual direction and adapt a film in a regular Claude chat.">
 <title>Motion Index · Designer Video Studio</title>
 <link rel="stylesheet" href="motion.css">
+<link rel="stylesheet" href="references.css">
 </head>
 <body>
 <header class="top"><div class="wrap top-inner">
@@ -18,8 +19,15 @@
 <noscript>Enable JavaScript to play the films and customize their prompts.</noscript>
 </section>
 <section id="references" class="refs">
-<div class="ref-intro"><h2>Creator <em>references</em></h2><p>Watch the original and read the creator’s prompt on Prompt Motion.</p></div>
-<div id="ref-list" class="ref-list"></div>
+<div class="ref-intro"><h2>Creator <em>references</em></h2><p>Search the Prompt Motion collection. Watch a reference and adapt its visual direction in Claude.</p></div>
+<form class="ref-search" role="search" aria-label="Search creator references">
+<label>Find a film<input id="ref-query" type="search" placeholder="Try paper collage, kinetic type, or a creator…" autocomplete="off"></label>
+<label>Format<select id="ref-format"><option value="">All formats</option><option>Landscape</option><option>Portrait</option><option>Square</option></select></label>
+<label>Resource<select id="ref-kind"><option value="">Prompts &amp; skills</option><option value="prompt">Prompt</option><option value="skill">Skill</option></select></label>
+</form>
+<div class="ref-results"><p id="ref-count" role="status">Loading references…</p><button type="button" id="ref-clear" hidden>Clear filters</button></div>
+<div id="ref-list" class="ref-grid" aria-label="Search results"></div>
+<button id="ref-more" type="button" class="secondary" hidden>Show more references</button>
 </section>
 </main>
 <footer class="wrap"><span>Designer Video Studio</span><a href="https://github.com/maan-iitd2/designer-video-studio#tools-and-sources">Source files &amp; tools ↗</a></footer>
@@ -43,5 +51,18 @@
 <a id="source" class="text-link" download>Save motion source for Claude ↓</a>
 <details><summary>Review an existing draft</summary><p class="intro">Use a fresh Claude chat with your draft, or with timestamped frames and your intended look.</p><button type="button" class="secondary" id="copy-review">Copy critique prompt</button><textarea id="review-fallback" aria-label="Critique to copy" rows="5" readonly hidden></textarea><p id="review-status" role="status"></p></details>
 </section></div></dialog>
+<dialog id="ref-dialog" aria-labelledby="ref-title">
+<div class="dialog-top"><span class="brand small">Creator reference</span><button id="ref-close" class="close" type="button">Close ×</button></div>
+<div class="split"><section class="film-side"><div id="ref-view"></div>
+<div class="film-copy"><p id="ref-by" class="meta"></p><h2 id="ref-title"></h2><p id="ref-facts"></p><p id="ref-tech"></p><nav id="ref-links" aria-label="Original sources"></nav></div></section>
+<section class="brief"><h3>Adapt this film</h3><p class="intro">Start from a visual technique and make a pilot with your own material.</p>
+<form id="ref-brief"><label>Your idea or exact words<textarea id="ref-idea" rows="3" placeholder="What are you making?"></textarea></label>
+<label>Material you have<input id="ref-assets" placeholder="Photos, sketches, a screen recording…"></label>
+<div class="pair"><label>Output format<select id="ref-output"><option>Match reference</option><option>Portrait · 9:16</option><option>Landscape · 16:9</option><option>Square · 1:1</option></select></label>
+<label>Script<select id="ref-script"><option>Shape my notes</option><option>Use my exact words</option><option>Write a draft</option><option>Visuals only</option></select></label></div>
+<details id="ref-brief-details"><summary>Read the adaptation brief</summary><textarea readonly id="ref-text" aria-label="Claude adaptation brief" rows="9"></textarea></details>
+<div class="actions"><button type="button" class="primary" id="ref-copy">Copy Claude brief</button><a href="https://claude.ai/new" class="secondary" target="_blank" rel="noopener">Open Claude ↗</a></div><p id="ref-status" role="status"></p></form>
+</section></div></dialog>
 <script src="motion.js" defer></script>
+<script type="module" src="references.js"></script>
 </body></html>

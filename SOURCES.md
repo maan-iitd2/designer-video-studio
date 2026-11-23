@@ -10,6 +10,10 @@ One Take uses Clipoemsart’s CC0 Bell & Howell camera photograph from the paper
 
 The creator references link to the authors’ examples on Prompt Motion. Their films and prompts remain with their creators. [Prompt Motion](https://prompt-motion.com/about)
 
+The [reference index](motion/reference-index.json) records titles, attribution, dates, published categories, orientation calculated from dimensions, original links, and publicly listed model or stack where available. Additional technique terms are keyword matches from the published title or brief. These describe the listing and can differ from the finished footage. Search thumbnails are requested from the publisher. The on-demand viewer uses the creator’s embedded post, with a link to the original entry if playback is unavailable.
+
+The studio writes its own adaptation briefs. The index stores metadata and links. The source videos and the creators’ prompt bodies stay on their original services. To update the snapshot, run `python scripts/index_prompt_motion.py` from the repository root. Use `--refresh` to recheck every current entry. The importer compares the homepage with the sitemap before replacing the index.
+
 ## Downloaded shot collections
 
 The [local catalog](library/index.html) indexes 803 entries. The 150 Shotcraft variants belong to 124 recipes. Herk cards and HyperFrames components are individual building blocks. Nine HyperFrames entries are full example sequences. Each entry has a stable studio ID and a local source path.

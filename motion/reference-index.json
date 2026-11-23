@@ -1,0 +1,4831 @@
+{
+ "source": "https://prompt-motion.com/",
+ "checked": "2026-11-23",
+ "entries": [
+  {
+   "id": "stephanlivera-df17a2",
+   "title": "Claude motion designer showreel",
+   "creator": "stephanlivera",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/stephanlivera-df17a2",
+   "post": "https://x.com/stephanlivera/status/2103315922098470926",
+   "thumbnail": "https://media.prompt-motion.com/stephanlivera-opus-5-5-on-max/poster.d424e0cf.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "twoclipping-5cba86",
+   "title": "Shape morphing through UI states",
+   "creator": "twoclipping",
+   "date": "2026-09-24",
+   "tags": [
+    "product-ui",
+    "charts",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout",
+    "shape morph",
+    "camera movement",
+    "beat sync",
+    "monochrome"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/twoclipping-5cba86",
+   "post": "https://x.com/twoclipping/status/2103273003555402193",
+   "thumbnail": "https://media.prompt-motion.com/twoclipping-opus-5-5-is-f-cking/poster.986f8282.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML + Playwright"
+  },
+  {
+   "id": "shneural-2abdfa",
+   "title": "Bold kinetic type showreel",
+   "creator": "shneural",
+   "date": "2026-09-24",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/shneural-2abdfa",
+   "post": "https://x.com/shneural/status/2103151003272962130",
+   "thumbnail": "https://media.prompt-motion.com/shneural-after-opus-5-5-it/poster.70734d5c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ajith-io-b5626e",
+   "title": "Abstract motion design reel",
+   "creator": "ajith_io",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ajith-io-b5626e",
+   "post": "https://x.com/ajith_io/status/2103449416325890146",
+   "thumbnail": "https://media.prompt-motion.com/ajith-io-wtf-made-with-claude/poster.f62c5981.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "twoclipping-221cab",
+   "title": "Photo print app launch film",
+   "creator": "twoclipping",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "phone",
+    "photos",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout",
+    "shape morph",
+    "camera movement",
+    "scroll",
+    "beat sync",
+    "masked reveal",
+    "map"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/twoclipping-221cab",
+   "post": "https://x.com/twoclipping/status/2103835273813496100",
+   "thumbnail": "https://media.prompt-motion.com/twoclipping-opus-5-5-is-the/poster.3055d7b1.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML + Playwright"
+  },
+  {
+   "id": "twoclipping-d89be5",
+   "title": "Landing page 3D scroll",
+   "creator": "twoclipping",
+   "date": "2026-10-14",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "shape morph",
+    "3D",
+    "camera movement",
+    "scroll",
+    "masked reveal",
+    "screen demo"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/twoclipping-d89be5",
+   "post": "https://x.com/twoclipping/status/2110329502676951367",
+   "thumbnail": "https://media.prompt-motion.com/twoclipping-d89be5/poster.11e3b3b3.webp",
+   "model": "Opus 5.5",
+   "stack": "WebGL2 + Playwright"
+  },
+  {
+   "id": "himanshutwtxs-5f4b43",
+   "title": "Motion designer showreel",
+   "creator": "himanshutwtxs",
+   "date": "2026-09-25",
+   "tags": [
+    "diagrams",
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/himanshutwtxs-5f4b43",
+   "post": "https://x.com/himanshutwtxs/status/2103495232637882858",
+   "thumbnail": "https://media.prompt-motion.com/himanshutwtxs-this-is-insane-opus/poster.5d911755.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "gabrielbuzziv-4ff0c6",
+   "title": "Enxovaly baby app promo",
+   "creator": "gabrielbuzziv",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/gabrielbuzziv-4ff0c6",
+   "post": "https://x.com/gabrielbuzziv/status/2103590703289057430",
+   "thumbnail": "https://media.prompt-motion.com/gabrielbuzziv-tutorial-o-mais-insano/poster.4430956a.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "lexnlin-038035",
+   "title": "Engraving-style Claude ad",
+   "creator": "LexnLin",
+   "date": "2026-10-02",
+   "tags": [
+    "kinetic-type",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "editorial",
+    "shape morph",
+    "3D",
+    "camera movement"
+   ],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/lexnlin-038035",
+   "post": "https://x.com/LexnLin/status/2106101651010449796",
+   "thumbnail": "https://media.prompt-motion.com/lexnlin-claude-opus-5-5-made/poster.075a96bb.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ror-fly-9950f1",
+   "title": "Negroni recipe animation",
+   "creator": "Ror_Fly",
+   "date": "2026-09-23",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Square",
+   "url": "https://prompt-motion.com/ror-fly-9950f1",
+   "post": "https://x.com/Ror_Fly/status/2102853258582880547",
+   "thumbnail": "https://media.prompt-motion.com/ror-fly-opus-5-5-rendered-this/poster.5d5e2582.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "notdwd-c2037d",
+   "title": "Launch video remake comparison",
+   "creator": "notdwd",
+   "date": "2026-09-28",
+   "tags": [
+    "product-ui",
+    "photos",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "camera movement",
+    "scroll",
+    "beat sync",
+    "screen demo",
+    "captions"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/notdwd-c2037d",
+   "post": "https://x.com/notdwd/status/2104401208958230764",
+   "thumbnail": "https://media.prompt-motion.com/notdwd-stop-asking-opus-5-5/poster.255891d5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "thismacapital-dfba20",
+   "title": "Travel visa service promo",
+   "creator": "thismacapital",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/thismacapital-dfba20",
+   "post": "https://x.com/thismacapital/status/2103773635714375808",
+   "thumbnail": "https://media.prompt-motion.com/thismacapital-la-video-a-ete/poster.f370bdb5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "lexnlin-f9b3bd8",
+   "title": "TasteSkill dashboard showcase",
+   "creator": "LexnLin",
+   "date": "2026-10-20",
+   "tags": [
+    "product-ui",
+    "charts"
+   ],
+   "kind": [
+    "skill"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/lexnlin-f9b3bd8",
+   "post": "https://x.com/LexnLin/status/2112674349132194185",
+   "thumbnail": "https://media.prompt-motion.com/lexnlin-f9b3bd8/poster.fd8f38e9.webp",
+   "skill": "https://github.com/Leonxlnx/taste-skill",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "mengto-a7f4679",
+   "title": "HTML app demo skill",
+   "creator": "MengTo",
+   "date": "2026-10-21",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "skill"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/mengto-a7f4679",
+   "post": "https://x.com/MengTo/status/2112843787777249661",
+   "thumbnail": "https://media.prompt-motion.com/mengto-a7f4679/poster.c0ed75a9.webp",
+   "skill": "https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/html-demo",
+   "model": "Opus 5.5",
+   "stack": "React"
+  },
+  {
+   "id": "ajith-io-c52e09",
+   "title": "Distilbook product video",
+   "creator": "ajith_io",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ajith-io-c52e09",
+   "post": "https://x.com/ajith_io/status/2103469807375208546",
+   "thumbnail": "https://media.prompt-motion.com/ajith-io-so-sad-motion-designers/poster.cdbd51f3.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "twoclipping-6dd14e",
+   "title": "UGC ad generator promo",
+   "creator": "twoclipping",
+   "date": "2026-09-23",
+   "tags": [
+    "product-ui",
+    "phone",
+    "photos",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout",
+    "shape morph",
+    "3D",
+    "beat sync",
+    "masked reveal"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/twoclipping-6dd14e",
+   "post": "https://x.com/twoclipping/status/2102554209166000267",
+   "thumbnail": "https://media.prompt-motion.com/twoclipping-wow-motion-designers-are/poster.4ef12655.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML + Playwright"
+  },
+  {
+   "id": "samuel-yostt-891f87",
+   "title": "ViralGrow product promo",
+   "creator": "samuel_yostt",
+   "date": "2026-10-01",
+   "tags": [
+    "product-ui",
+    "phone",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/samuel-yostt-891f87",
+   "post": "https://x.com/samuel_yostt/status/2105746669035733275",
+   "thumbnail": "https://media.prompt-motion.com/samuel-yostt-891f87/poster.9506d45c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "emollick-8661a8",
+   "title": "Recursion explained in genres",
+   "creator": "emollick",
+   "date": "2026-09-26",
+   "tags": [
+    "characters",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/emollick-8661a8",
+   "post": "https://x.com/emollick/status/2103688362960019567",
+   "thumbnail": "https://media.prompt-motion.com/emollick-how-do-you-explain/poster.cb56816f.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "lexnlin-6161a6",
+   "title": "Cinetic skill launch film",
+   "creator": "LexnLin",
+   "date": "2026-10-04",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "skill"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/lexnlin-6161a6",
+   "post": "https://x.com/LexnLin/status/2106891315371737480",
+   "thumbnail": "https://media.prompt-motion.com/lexnlin-6161a6/poster.e26c924b.webp",
+   "skill": "https://github.com/Leonxlnx/cinetic",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "steventey-0d20e4",
+   "title": "Dub promo video",
+   "creator": "steventey",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/steventey-0d20e4",
+   "post": "https://x.com/steventey/status/2103625902211088880",
+   "thumbnail": "https://media.prompt-motion.com/steventey-claude-opus-5-5-feels/poster.b1fb7d40.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "alex-prompter-1ea044",
+   "title": "Animated business explainer",
+   "creator": "alex_prompter",
+   "date": "2026-09-25",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/alex-prompter-1ea044",
+   "post": "https://x.com/alex_prompter/status/2103499977632997524",
+   "thumbnail": "https://media.prompt-motion.com/alex-prompter-claude-opus-5-5-can/poster.f53477da.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "majin-appsheet-2d3c1a",
+   "title": "Shin Majin-shiki promo",
+   "creator": "Majin_AppSheet",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/majin-appsheet-2d3c1a",
+   "post": "https://x.com/Majin_AppSheet/status/2103497319899693327",
+   "thumbnail": "https://media.prompt-motion.com/majin-appsheet-claude-code-opus-5-5-pv-ai/poster.74ef4022.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "tdinh-me-815acb",
+   "title": "TypingMind logo reveal",
+   "creator": "tdinh_me",
+   "date": "2026-09-26",
+   "tags": [
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/tdinh-me-815acb",
+   "post": "https://x.com/tdinh_me/status/2103704250329301409",
+   "thumbnail": "https://media.prompt-motion.com/tdinh-me-use-this-prompt-and/poster.03c7a59a.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "thayto-dev-44b911",
+   "title": "AjustaCV Pro pricing promo",
+   "creator": "thayto_dev",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/thayto-dev-44b911",
+   "post": "https://x.com/thayto_dev/status/2104200591278739735",
+   "thumbnail": "https://media.prompt-motion.com/thayto-dev-tutorial-do-gabrielbuzziv-o/poster.d7257d6f.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "sab8a-364a5a",
+   "title": "Talking-head clip edit",
+   "creator": "sab8a",
+   "date": "2026-09-24",
+   "tags": [
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "captions"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sab8a-364a5a",
+   "post": "https://x.com/sab8a/status/2103144778481475686",
+   "thumbnail": "https://media.prompt-motion.com/sab8a-opus-5-5-openedit-prompt/poster.b706d917.webp",
+   "model": "Opus 5.5",
+   "stack": "OpenEdit"
+  },
+  {
+   "id": "anthonyriera-9b1b2a",
+   "title": "Reddit marketing tool launch video",
+   "creator": "anthonyriera",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "characters"
+   ],
+   "kind": [
+    "skill"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/anthonyriera-9b1b2a",
+   "post": "https://x.com/anthonyriera/status/2103784508860305566",
+   "thumbnail": "https://media.prompt-motion.com/anthonyriera-wtf-opus-5-5-is/poster.7ff4b6a8.webp",
+   "skill": "https://github.com/Rieranthony/product-film-skill",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "davidmarcus-a28a60",
+   "title": "Lightspark social promo video",
+   "creator": "davidmarcus",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/davidmarcus-a28a60",
+   "post": "https://x.com/davidmarcus/status/2103275618045686217",
+   "thumbnail": "https://media.prompt-motion.com/davidmarcus-opus-5-5-got-quite/poster.cb723240.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "techhalla-90b8ec",
+   "title": "TechHalla kinetic type bumper",
+   "creator": "techhalla",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout",
+    "scroll",
+    "beat sync",
+    "masked reveal",
+    "typography"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/techhalla-90b8ec",
+   "post": "https://x.com/techhalla/status/2103411244468498547",
+   "thumbnail": "https://media.prompt-motion.com/techhalla-opus-5-5-just-cooked/poster.f2d0b4d9.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ultimaxbt-bbebf5",
+   "title": "Orange dot motion system",
+   "creator": "ultimaxbt",
+   "date": "2026-10-06",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "editorial",
+    "grid layout",
+    "3D",
+    "typography",
+    "map"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ultimaxbt-bbebf5",
+   "post": "https://x.com/ultimaxbt/status/2107486052550062398",
+   "thumbnail": "https://media.prompt-motion.com/ultimaxbt-bbebf5/poster.8609bc84.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "rossaxbt-94583b",
+   "title": "White ball UI motion loop",
+   "creator": "rossaxbt",
+   "date": "2026-10-10",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout",
+    "camera movement",
+    "beat sync",
+    "map"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/rossaxbt-94583b",
+   "post": "https://x.com/rossaxbt/status/2108933141406638456",
+   "thumbnail": "https://media.prompt-motion.com/rossaxbt-94583b/poster.211617c5.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "itsolelehmann-e47532",
+   "title": "Four seasons train window",
+   "creator": "itsolelehmann",
+   "date": "2026-09-24",
+   "tags": [],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/itsolelehmann-e47532",
+   "post": "https://x.com/itsolelehmann/status/2103124033365762215",
+   "thumbnail": "https://media.prompt-motion.com/itsolelehmann-anthropic-has-no-image/poster.bff10230.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "linearuncle-5d2bae",
+   "title": "Derivative concept explainer",
+   "creator": "LinearUncle",
+   "date": "2026-09-24",
+   "tags": [
+    "charts",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/linearuncle-5d2bae",
+   "post": "https://x.com/LinearUncle/status/2103128559174971663",
+   "thumbnail": "https://media.prompt-motion.com/linearuncle-opus-5-5-manim-opus-5-5-manim/poster.f5d486ea.webp",
+   "model": "Opus 5.5",
+   "stack": "Manim, edge-tts"
+  },
+  {
+   "id": "pankajstwt-49978ed",
+   "title": "Voice agent landing page",
+   "creator": "pankajstwt",
+   "date": "2026-10-20",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D",
+    "camera movement"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/pankajstwt-49978ed",
+   "post": "https://x.com/pankajstwt/status/2112540104896241791",
+   "thumbnail": "https://media.prompt-motion.com/pankajstwt-49978ed/poster.9b9cd958.webp",
+   "model": "Opus 5.5",
+   "stack": "WebGL2"
+  },
+  {
+   "id": "jacksonfall-54b2ac",
+   "title": "Branding agency showreel",
+   "creator": "jacksonfall",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/jacksonfall-54b2ac",
+   "post": "https://x.com/jacksonfall/status/2103925420211229164",
+   "thumbnail": "https://media.prompt-motion.com/jacksonfall-opus-5-5-on-xhigh/poster.77abb74c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "kloss-xyz-fe0c31",
+   "title": "History of AI timeline",
+   "creator": "kloss_xyz",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams",
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kloss-xyz-fe0c31",
+   "post": "https://x.com/kloss_xyz/status/2103652674336067876",
+   "thumbnail": "https://media.prompt-motion.com/kloss-xyz-i-asked-opus-5-5/poster.2e572f1f.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "jasonzhou1993-8595e0",
+   "title": "Claude motion reel",
+   "creator": "jasonzhou1993",
+   "date": "2026-09-26",
+   "tags": [
+    "charts",
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/jasonzhou1993-8595e0",
+   "post": "https://x.com/jasonzhou1993/status/2103663364958515541",
+   "thumbnail": "https://media.prompt-motion.com/jasonzhou1993-wft-this-is-one/poster.97feb391.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "robj3d3-b18fad",
+   "title": "SuperX feature release teaser",
+   "creator": "robj3d3",
+   "date": "2026-10-05",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/robj3d3-b18fad",
+   "post": "https://x.com/robj3d3/status/2107040421989994822",
+   "thumbnail": "https://media.prompt-motion.com/robj3d3-opus-5-5-max-effort/poster.7736dcf0.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ho-ba-f3f0e9",
+   "title": "mdfor.dev product intro video",
+   "creator": "HO_BA",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "screen demo"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ho-ba-f3f0e9",
+   "post": "https://x.com/HO_BA/status/2103845264649761062",
+   "thumbnail": "https://media.prompt-motion.com/ho-ba-i-made-this-using/poster.838e141c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "itisrazak-3ad902",
+   "title": "Distilbook motion showreel",
+   "creator": "itisRazak",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/itisrazak-3ad902",
+   "post": "https://x.com/itisRazak/status/2103517930424332386",
+   "thumbnail": "https://media.prompt-motion.com/itisrazak-wtf-made-with-single/poster.f84d2ee7.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "notdwd-7de38a",
+   "title": "Frame by Frame launch video",
+   "creator": "notdwd",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "camera movement",
+    "scroll",
+    "beat sync",
+    "screen demo",
+    "captions"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/notdwd-7de38a",
+   "post": "https://x.com/notdwd/status/2104229441211969685",
+   "thumbnail": "https://media.prompt-motion.com/notdwd-another-one-1000-ai/poster.7b32a7a0.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "viktoroddy-98c1d8",
+   "title": "MotionSites one million visitors",
+   "creator": "viktoroddy",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "charts",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/viktoroddy-98c1d8",
+   "post": "https://x.com/viktoroddy/status/2103802280617402509",
+   "thumbnail": "https://media.prompt-motion.com/viktoroddy-opus-5-5-one-shoted-this/poster.b1768912.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ismailfahmi-557268",
+   "title": "Drone Emprit showreel",
+   "creator": "ismailfahmi",
+   "date": "2026-09-25",
+   "tags": [
+    "charts",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ismailfahmi-557268",
+   "post": "https://x.com/ismailfahmi/status/2103557833153466403",
+   "thumbnail": "https://media.prompt-motion.com/ismailfahmi-bikin-showreel-15-detik/poster.b611f68c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "melvynx-6cde6c",
+   "title": "Email tool promo reel",
+   "creator": "melvynx",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/melvynx-6cde6c",
+   "post": "https://x.com/melvynx/status/2103714680577638493",
+   "thumbnail": "https://media.prompt-motion.com/melvynx-this-is-insane-with/poster.c4205384.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "rossaxbt-3085b7",
+   "title": "Ora 2 image model launch film",
+   "creator": "rossaxbt",
+   "date": "2026-10-07",
+   "tags": [
+    "product-ui",
+    "photos",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "paper collage",
+    "grid layout",
+    "camera movement",
+    "beat sync",
+    "screen demo",
+    "typography",
+    "captions"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/rossaxbt-3085b7",
+   "post": "https://x.com/rossaxbt/status/2107845961691091295",
+   "thumbnail": "https://media.prompt-motion.com/rossaxbt-3085b7/poster.cf192678.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML canvas + Playwright + ffmpeg"
+  },
+  {
+   "id": "tequilafunks-97f6c9",
+   "title": "Claude motion design reel",
+   "creator": "tequilafunks",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/tequilafunks-97f6c9",
+   "post": "https://x.com/tequilafunks/status/2103528644828127728",
+   "thumbnail": "https://media.prompt-motion.com/tequilafunks-opus-5-5-remotion-make/poster.d47b9561.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "sudo-kiran-49176d",
+   "title": "Claude motion design showreel",
+   "creator": "sudo_kiran",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sudo-kiran-49176d",
+   "post": "https://x.com/sudo_kiran/status/2103463886372696074",
+   "thumbnail": "https://media.prompt-motion.com/sudo-kiran-no-storyboard-no-detailed/poster.1c7025f3.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "lukasersil-0ed38e",
+   "title": "Motion techniques showreel",
+   "creator": "lukasersil",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D",
+    "masked reveal",
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/lukasersil-0ed38e",
+   "post": "https://x.com/lukasersil/status/2103742861971726495",
+   "thumbnail": "https://media.prompt-motion.com/lukasersil-ten-claudeai-me-neprestava/poster.4c6bfa08.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "nft-chen-5f8bb0",
+   "title": "Porco Rosso sunset dogfight",
+   "creator": "NFT_Chen",
+   "date": "2026-09-26",
+   "tags": [],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/nft-chen-5f8bb0",
+   "post": "https://x.com/NFT_Chen/status/2103882415299350878",
+   "thumbnail": "https://media.prompt-motion.com/nft-chen-opus-5-5-three-js-prompt/poster.872b3ed5.webp",
+   "model": "Opus 5.5",
+   "stack": "Three.js"
+  },
+  {
+   "id": "axtonliu-0b861d",
+   "title": "Pelican riding a bicycle",
+   "creator": "AxtonLiu",
+   "date": "2026-09-24",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/axtonliu-0b861d",
+   "post": "https://x.com/AxtonLiu/status/2103119648271290566",
+   "thumbnail": "https://media.prompt-motion.com/axtonliu-opus-5-5-html-svg/poster.7e52f8c5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "gizakdag-cf4ae6",
+   "title": "Overthinking motion study",
+   "creator": "gizakdag",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/gizakdag-cf4ae6",
+   "post": "https://x.com/gizakdag/status/2103566030916239768",
+   "thumbnail": "https://media.prompt-motion.com/gizakdag-overthinking-a-film-by/poster.4fbe5540.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "mandelduck-95fd08",
+   "title": "Starry Night cat-spotting game",
+   "creator": "MandelDuck",
+   "date": "2026-09-26",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/mandelduck-95fd08",
+   "post": "https://x.com/MandelDuck/status/2103802923465768972",
+   "thumbnail": "https://media.prompt-motion.com/mandelduck-single-prompt-with-opus/poster.dfc0e8b5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "gorden-sun-041f56",
+   "title": "Beat-synced bouncing 3D ball",
+   "creator": "Gorden_Sun",
+   "date": "2026-09-30",
+   "tags": [
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/gorden-sun-041f56",
+   "post": "https://x.com/Gorden_Sun/status/2105302007896797351",
+   "thumbnail": "https://media.prompt-motion.com/gorden-sun-opus-5-5-3d-blender-3d-3d-three-js/poster.462d4e69.webp",
+   "model": "Opus 5.5",
+   "stack": "Three.js"
+  },
+  {
+   "id": "ajith-io-4c248f",
+   "title": "Distilbook promo showreel",
+   "creator": "ajith_io",
+   "date": "2026-09-26",
+   "tags": [
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ajith-io-4c248f",
+   "post": "https://x.com/ajith_io/status/2103800569584562538",
+   "thumbnail": "https://media.prompt-motion.com/ajith-io-omg-i-asked-claude/poster.e3f59fcd.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "polydao-7a572b",
+   "title": "Jev engineering showreel",
+   "creator": "polydao",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/polydao-7a572b",
+   "post": "https://x.com/polydao/status/2103783134206566862",
+   "thumbnail": "https://media.prompt-motion.com/polydao-claude-opus-5-5-is/poster.5e7a709d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ajith-io-ea7f2d",
+   "title": "Distilbook motion showreel",
+   "creator": "ajith_io",
+   "date": "2026-09-25",
+   "tags": [
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ajith-io-ea7f2d",
+   "post": "https://x.com/ajith_io/status/2103541149709615243",
+   "thumbnail": "https://media.prompt-motion.com/ajith-io-claude-cooked-really-hard/poster.54303b9e.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ayushunleashed-ece3e3",
+   "title": "Claude motion design showreel",
+   "creator": "ayushunleashed",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ayushunleashed-ece3e3",
+   "post": "https://x.com/ayushunleashed/status/2103794962257084755",
+   "thumbnail": "https://media.prompt-motion.com/ayushunleashed-motion-designers-are-about/poster.c2e5b7ee.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "chatgptastra-0d95c7",
+   "title": "Motion principles showreel",
+   "creator": "ChatGptAstra",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams",
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/chatgptastra-0d95c7",
+   "post": "https://x.com/ChatGptAstra/status/2103834787647807540",
+   "thumbnail": "https://media.prompt-motion.com/chatgptastra-opus-5-5-15/poster.8b980fae.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ultimaxbt-2ddf1e",
+   "title": "Food craving launch film",
+   "creator": "ultimaxbt",
+   "date": "2026-10-08",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "photos",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "camera movement",
+    "beat sync",
+    "masked reveal",
+    "map"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ultimaxbt-2ddf1e",
+   "post": "https://x.com/ultimaxbt/status/2108210884799549714",
+   "thumbnail": "https://media.prompt-motion.com/ultimaxbt-2ddf1e/poster.0bb4ae48.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "monokern-ade5b6",
+   "title": "Psychedelic hypnotic eye showreel",
+   "creator": "monokern",
+   "date": "2026-09-25",
+   "tags": [
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/monokern-ade5b6",
+   "post": "https://x.com/monokern/status/2103563538828832979",
+   "thumbnail": "https://media.prompt-motion.com/monokern-holy-shii-gave-opus/poster.0499298d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "kloss-xyz-15182a",
+   "title": "Chaotic Claude POV video",
+   "creator": "kloss_xyz",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/kloss-xyz-15182a",
+   "post": "https://x.com/kloss_xyz/status/2103664956482941143",
+   "thumbnail": "https://media.prompt-motion.com/kloss-xyz-had-to-test-this/poster.d87473a6.webp",
+   "model": "Opus 5.5",
+   "stack": "Python + ffmpeg"
+  },
+  {
+   "id": "0xnfrith-5be616",
+   "title": "Celld job ownership explainer",
+   "creator": "0xnfrith",
+   "date": "2026-09-25",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/0xnfrith-5be616",
+   "post": "https://x.com/0xnfrith/status/2103358957050068999",
+   "thumbnail": "https://media.prompt-motion.com/0xnfrith-opus-5-5-animation-created/poster.81bddbb4.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "math-files-39c9d0",
+   "title": "Mathematics motion showreel",
+   "creator": "Math_files",
+   "date": "2026-09-28",
+   "tags": [
+    "charts",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/math-files-39c9d0",
+   "post": "https://x.com/Math_files/status/2104486181853610052",
+   "thumbnail": "https://media.prompt-motion.com/math-files-i-made-this-using/poster.b6d07f4e.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "hanifproduktif-54bdee",
+   "title": "Motion designer showreel",
+   "creator": "hanifproduktif",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/hanifproduktif-54bdee",
+   "post": "https://x.com/hanifproduktif/status/2103404901451829311",
+   "thumbnail": "https://media.prompt-motion.com/hanifproduktif-use-this-prompt-in/poster.423cf93f.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "nikolajankovic-ce4ff4",
+   "title": "DeFi Saver stop-motion explainer",
+   "creator": "_nikolajankovic",
+   "date": "2026-09-23",
+   "tags": [
+    "charts",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "hand drawn"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/nikolajankovic-ce4ff4",
+   "post": "https://x.com/_nikolajankovic/status/2102867033100616097",
+   "thumbnail": "https://media.prompt-motion.com/nikolajankovic-just-tried-opus-5-5/poster.88f00913.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ddryo-loos-300829",
+   "title": "Lism CSS 1.0 release video",
+   "creator": "ddryo_loos",
+   "date": "2026-10-02",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ddryo-loos-300829",
+   "post": "https://x.com/ddryo_loos/status/2105824736072925621",
+   "thumbnail": "https://media.prompt-motion.com/ddryo-loos-bgm-opus-5-5-lism-css/poster.4869fc76.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "eyishazyer-af035b",
+   "title": "Motion designer showreel",
+   "creator": "eyishazyer",
+   "date": "2026-09-26",
+   "tags": [
+    "charts",
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/eyishazyer-af035b",
+   "post": "https://x.com/eyishazyer/status/2103816865852129686",
+   "thumbnail": "https://media.prompt-motion.com/eyishazyer-found-another-prompt-for/poster.81a4f375.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "blue-clarity-ef56d0",
+   "title": "Particle sphere motion reel",
+   "creator": "blue_clarity",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/blue-clarity-ef56d0",
+   "post": "https://x.com/blue_clarity/status/2103564589065449603",
+   "thumbnail": "https://media.prompt-motion.com/blue-clarity-ok-so-seeing-lots/poster.01fac63c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "roundtablespace-d3a1be",
+   "title": "Easing and morphing showreel",
+   "creator": "RoundtableSpace",
+   "date": "2026-09-28",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "shape morph"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/roundtablespace-d3a1be",
+   "post": "https://x.com/RoundtableSpace/status/2104424611010232366",
+   "thumbnail": "https://media.prompt-motion.com/roundtablespace-opus-5-5-on-max/poster.d424e0cf.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "1littlecoder-9fef89",
+   "title": "Claude self-intro motion graphic",
+   "creator": "1littlecoder",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/1littlecoder-9fef89",
+   "post": "https://x.com/1littlecoder/status/2103587706999914649",
+   "thumbnail": "https://media.prompt-motion.com/1littlecoder-this-is-crazy-i/poster.ad5545de.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "jake11moran-f60e35",
+   "title": "NotchBrowser product teaser",
+   "creator": "jake11moran",
+   "date": "2026-09-24",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "shape morph",
+    "film texture"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/jake11moran-f60e35",
+   "post": "https://x.com/jake11moran/status/2103237884564414633",
+   "thumbnail": "https://media.prompt-motion.com/jake11moran-excited-to-try-this/poster.5cf9f494.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "sayan-shanky-f850d8",
+   "title": "AI data centre 3D tour",
+   "creator": "Sayan_shanky",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sayan-shanky-f850d8",
+   "post": "https://x.com/Sayan_shanky/status/2103736579449868515",
+   "thumbnail": "https://media.prompt-motion.com/sayan-shanky-one-prompt-to-claude/poster.fa658e42.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "yunn260414-60d996",
+   "title": "What is Git explainer",
+   "creator": "Yunn260414",
+   "date": "2026-09-27",
+   "tags": [
+    "diagrams",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/yunn260414-60d996",
+   "post": "https://x.com/Yunn260414/status/2104044910769016888",
+   "thumbnail": "https://media.prompt-motion.com/yunn260414-opus-5-5-git-git-js-git/poster.7e7d81bf.webp",
+   "model": "Opus 5.5",
+   "stack": "JavaScript"
+  },
+  {
+   "id": "brainextends-e19ac3",
+   "title": "Spotify product film",
+   "creator": "brainextends",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "camera movement",
+    "masked reveal"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/brainextends-e19ac3",
+   "post": "https://x.com/brainextends/status/2103801834930606193",
+   "thumbnail": "https://media.prompt-motion.com/brainextends-opus-5-5-is-f-cking/poster.967d6a5e.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ryan-morr-ccc796",
+   "title": "Hoplite cloud handoff launch",
+   "creator": "ryan_morr",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "phone",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ryan-morr-ccc796",
+   "post": "https://x.com/ryan_morr/status/2104249941136666741",
+   "thumbnail": "https://media.prompt-motion.com/ryan-morr-opus-5-5-is-by/poster.e4dc2e4d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "pankajkumar-dev-0bee87",
+   "title": "Poster breaking its frame",
+   "creator": "pankajkumar_dev",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/pankajkumar-dev-0bee87",
+   "post": "https://x.com/pankajkumar_dev/status/2103502614134718609",
+   "thumbnail": "https://media.prompt-motion.com/pankajkumar-dev-opus-5-5-is-insanely/poster.29ea2725.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "sudo-kiran-b055de",
+   "title": "DistilBook motion explainer",
+   "creator": "sudo_kiran",
+   "date": "2026-09-29",
+   "tags": [
+    "product-ui",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sudo-kiran-b055de",
+   "post": "https://x.com/sudo_kiran/status/2104846546768670892",
+   "thumbnail": "https://media.prompt-motion.com/sudo-kiran-videos-created-using-the/poster.ed6c29a4.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "raphaelaubryy-4b137e",
+   "title": "Motion designer résumé reel",
+   "creator": "RaphaelAubryy",
+   "date": "2026-09-25",
+   "tags": [
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/raphaelaubryy-4b137e",
+   "post": "https://x.com/RaphaelAubryy/status/2103416909857190360",
+   "thumbnail": "https://media.prompt-motion.com/raphaelaubryy-gave-opus-5-5-a/poster.de590ab9.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "jake11moran-a269c4",
+   "title": "Animated agent session story",
+   "creator": "jake11moran",
+   "date": "2026-09-24",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "skill"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/jake11moran-a269c4",
+   "post": "https://x.com/jake11moran/status/2103247490237825416",
+   "thumbnail": "https://media.prompt-motion.com/jake11moran-session-story-created-a-skill/poster.5e9c2d0b.webp",
+   "skill": "https://github.com/heygen-com/hyperframes-community-skills/tree/master/skills/session-story",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "arjunsh1607-93005d",
+   "title": "Pixelup Labs studio showreel",
+   "creator": "arjunsh1607",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/arjunsh1607-93005d",
+   "post": "https://x.com/arjunsh1607/status/2104295133432922126",
+   "thumbnail": "https://media.prompt-motion.com/arjunsh1607-opus-5-5-on-ultracode/poster.b0d3f925.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "codestackr-c071bf",
+   "title": "Claude motion reel",
+   "creator": "codeSTACKr",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/codestackr-c071bf",
+   "post": "https://x.com/codeSTACKr/status/2103656229717328129",
+   "thumbnail": "https://media.prompt-motion.com/codestackr-i-keep-seeing-all/poster.ce65326c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "hqmank-7c61f1",
+   "title": "Browser automation skill launch",
+   "creator": "hqmank",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "music",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/hqmank-7c61f1",
+   "post": "https://x.com/hqmank/status/2103831140033241156",
+   "thumbnail": "https://media.prompt-motion.com/hqmank-wtf-opus-5-5-is/poster.1dcc92d4.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ratheejaisal-1f4538",
+   "title": "founder.page launch video",
+   "creator": "RatheeJaisal",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ratheejaisal-1f4538",
+   "post": "https://x.com/RatheeJaisal/status/2103774864742154698",
+   "thumbnail": "https://media.prompt-motion.com/ratheejaisal-bro-i-just-one/poster.ba9c1186.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "tankazunori0914-0fc886",
+   "title": "What day is it",
+   "creator": "tankazunori0914",
+   "date": "2026-10-02",
+   "tags": [
+    "kinetic-type",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/tankazunori0914-0fc886",
+   "post": "https://x.com/tankazunori0914/status/2105917770907156748",
+   "thumbnail": "https://media.prompt-motion.com/tankazunori0914-bgm-30-11-1-36-opus-5-5/poster.6e62442b.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "prasad-pilla-2c0cba",
+   "title": "Alan agent platform promo",
+   "creator": "prasad_pilla",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/prasad-pilla-2c0cba",
+   "post": "https://x.com/prasad_pilla/status/2103728953785496049",
+   "thumbnail": "https://media.prompt-motion.com/prasad-pilla-wtf-made-entirely-with/poster.dbaf0bbc.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "dale-vaz-cc612a",
+   "title": "Sahi trading terminal reveal",
+   "creator": "dale_vaz",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone",
+    "charts",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "camera movement"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/dale-vaz-cc612a",
+   "post": "https://x.com/dale_vaz/status/2103290592679879074",
+   "thumbnail": "https://media.prompt-motion.com/dale-vaz-claude-opus-5-5-is/poster.536b4710.webp",
+   "model": "Opus 5.5",
+   "stack": "JavaScript"
+  },
+  {
+   "id": "sarut0bisasuke-cefa43",
+   "title": "White Russian recipe animation",
+   "creator": "Sarut0biSasuke",
+   "date": "2026-09-25",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sarut0bisasuke-cefa43",
+   "post": "https://x.com/Sarut0biSasuke/status/2103418429248069973",
+   "thumbnail": "https://media.prompt-motion.com/sarut0bisasuke-opus-5-5-is-cracked/poster.983a2109.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "maxalexweber-67688b",
+   "title": "ODATANO Cardano hype edit",
+   "creator": "maxalexweber",
+   "date": "2026-09-24",
+   "tags": [
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/maxalexweber-67688b",
+   "post": "https://x.com/maxalexweber/status/2103118009535459784",
+   "thumbnail": "https://media.prompt-motion.com/maxalexweber-i-made-this-with/poster.33f83540.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ezshine-c90d73",
+   "title": "AI Arena product promo",
+   "creator": "ezshine",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ezshine-c90d73",
+   "post": "https://x.com/ezshine/status/2103501705698750731",
+   "thumbnail": "https://media.prompt-motion.com/ezshine-opus-5-5-16-9-mp4/poster.e1456e5a.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "samuel-spitz-974923",
+   "title": "Motion design showreel",
+   "creator": "samuel_spitz",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/samuel-spitz-974923",
+   "post": "https://x.com/samuel_spitz/status/2103544855276503053",
+   "thumbnail": "https://media.prompt-motion.com/samuel-spitz-i-asked-opus-5-5/poster.d4ffbbb5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "tak3sh8-be5012",
+   "title": "Replica symmetry breaking whiteboard",
+   "creator": "tak3sh8",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "hand drawn"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/tak3sh8-be5012",
+   "post": "https://x.com/tak3sh8/status/2103667481139441895",
+   "thumbnail": "https://media.prompt-motion.com/tak3sh8-since-everyone-seems-to/poster.8074012c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "hbcoop-de365c",
+   "title": "Full Stop figure sequence",
+   "creator": "HBCoop_",
+   "date": "2026-10-05",
+   "tags": [
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/hbcoop-de365c",
+   "post": "https://x.com/HBCoop_/status/2107139305324122491",
+   "thumbnail": "https://media.prompt-motion.com/hbcoop-de365c/poster.4545e61b.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "aistocksavvy-3fb9f5",
+   "title": "Stock analysis app promo",
+   "creator": "AIStockSavvy",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/aistocksavvy-3fb9f5",
+   "post": "https://x.com/AIStockSavvy/status/2103482258774483320",
+   "thumbnail": "https://media.prompt-motion.com/aistocksavvy-wow-made-this-motion/poster.0f5df158.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "techyoutbe-945b56",
+   "title": "Visual guides library launch",
+   "creator": "techyoutbe",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "diagrams",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/techyoutbe-945b56",
+   "post": "https://x.com/techyoutbe/status/2103465227807588678",
+   "thumbnail": "https://media.prompt-motion.com/techyoutbe-i-used-below-prompt/poster.2c3d9bcc.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "micheleharmonic-77628e",
+   "title": "GravityDEX anime hype edit",
+   "creator": "MicheleHarmonic",
+   "date": "2026-09-24",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/micheleharmonic-77628e",
+   "post": "https://x.com/MicheleHarmonic/status/2103111448352244175",
+   "thumbnail": "https://media.prompt-motion.com/micheleharmonic-i-made-this-with/poster.3beaafb5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "lemomo-ai-0d9cff",
+   "title": "Whiteboard skill tutorial",
+   "creator": "lemomo_ai",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/lemomo-ai-0d9cff",
+   "post": "https://x.com/lemomo_ai/status/2104070024575242622",
+   "thumbnail": "https://media.prompt-motion.com/lemomo-ai-lemo-opuscar-skill-opus-5-5/poster.7ac91149.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "triglyceee-bd5b08",
+   "title": "Moroccan political history timeline",
+   "creator": "TrigLyceee",
+   "date": "2026-09-26",
+   "tags": [
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/triglyceee-bd5b08",
+   "post": "https://x.com/TrigLyceee/status/2103804459986161719",
+   "thumbnail": "https://media.prompt-motion.com/triglyceee-fascinant-ce-que-peut/poster.4d428731.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "zheke-38deff",
+   "title": "Kinetic type showreel",
+   "creator": "zheke",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/zheke-38deff",
+   "post": "https://x.com/zheke/status/2103418664854622583",
+   "thumbnail": "https://media.prompt-motion.com/zheke-prompt-hello-opus-5-5/poster.df77050a.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "deifosv-04e4d3",
+   "title": "Tennis game launch video",
+   "creator": "deifosv",
+   "date": "2026-09-24",
+   "tags": [
+    "product-ui",
+    "phone"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/deifosv-04e4d3",
+   "post": "https://x.com/deifosv/status/2103197522382786581",
+   "thumbnail": "https://media.prompt-motion.com/deifosv-i-asked-opus-5-5/poster.2033cc87.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "sudeepsd-1a3485",
+   "title": "Flexprice motion showreel",
+   "creator": "sudeepsd_",
+   "date": "2026-09-26",
+   "tags": [
+    "charts",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sudeepsd-1a3485",
+   "post": "https://x.com/sudeepsd_/status/2103776623548158453",
+   "thumbnail": "https://media.prompt-motion.com/sudeepsd-opus-5-5-is-goated/poster.e3a1448a.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "visheshbaghell-3aba37",
+   "title": "Tally product demo",
+   "creator": "VisheshBaghell",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/visheshbaghell-3aba37",
+   "post": "https://x.com/VisheshBaghell/status/2103772327146119508",
+   "thumbnail": "https://media.prompt-motion.com/visheshbaghell-opus-5-5-is-cooking/poster.47899c81.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "imthatcarlos-e04bfe",
+   "title": "Sherwood agentic hedge fund explainer",
+   "creator": "imthatcarlos",
+   "date": "2026-09-23",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/imthatcarlos-e04bfe",
+   "post": "https://x.com/imthatcarlos/status/2102849219388133592",
+   "thumbnail": "https://media.prompt-motion.com/imthatcarlos-opus-5-5-just-one-shotted/poster.3123407a.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "paulo-kombucha-96431c",
+   "title": "Mascot referral program promo",
+   "creator": "paulo_kombucha",
+   "date": "2026-09-28",
+   "tags": [
+    "product-ui",
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/paulo-kombucha-96431c",
+   "post": "https://x.com/paulo_kombucha/status/2104481235028283883",
+   "thumbnail": "https://media.prompt-motion.com/paulo-kombucha-i-played-with-the/poster.afc1bdad.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "gigabit-million-16b3a0",
+   "title": "Steam new releases news recap",
+   "creator": "gigabit_million",
+   "date": "2026-09-27",
+   "tags": [
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/gigabit-million-16b3a0",
+   "post": "https://x.com/gigabit_million/status/2104068536041959719",
+   "thumbnail": "https://media.prompt-motion.com/gigabit-million-claude-opus-5-5-9-25-9-26-steam-60/poster.d0f18e88.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "sudo-kiran-6609ed",
+   "title": "DistilBook product explainer",
+   "creator": "sudo_kiran",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sudo-kiran-6609ed",
+   "post": "https://x.com/sudo_kiran/status/2103761658745335993",
+   "thumbnail": "https://media.prompt-motion.com/sudo-kiran-built-a-product-demo/poster.66315885.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "demonugc-4c5753",
+   "title": "Morphing UI states loop",
+   "creator": "demonugc",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout",
+    "shape morph",
+    "camera movement",
+    "beat sync",
+    "monochrome"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/demonugc-4c5753",
+   "post": "https://x.com/demonugc/status/2103526713208525162",
+   "thumbnail": "https://media.prompt-motion.com/demonugc-opus-5-5-is-f-cking/poster.c31ba347.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML, Playwright"
+  },
+  {
+   "id": "jhylee95-e1152f",
+   "title": "Supademo launch video",
+   "creator": "jhylee95",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/jhylee95-e1152f",
+   "post": "https://x.com/jhylee95/status/2103604431627452427",
+   "thumbnail": "https://media.prompt-motion.com/jhylee95-opus-5-5-max-is/poster.d71b49c7.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "sachaarbonel-8f14f4",
+   "title": "Norilu product launch video",
+   "creator": "sachaarbonel",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sachaarbonel-8f14f4",
+   "post": "https://x.com/sachaarbonel/status/2103614797501673648",
+   "thumbnail": "https://media.prompt-motion.com/sachaarbonel-damn-opus-5-5-cooked/poster.01f0222d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "gdgtify-287ddf",
+   "title": "Speech built as architecture",
+   "creator": "Gdgtify",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "editorial",
+    "typography"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/gdgtify-287ddf",
+   "post": "https://x.com/Gdgtify/status/2103458245213929495",
+   "thumbnail": "https://media.prompt-motion.com/gdgtify-inspired-by-what-techhalla/poster.603cbafe.webp",
+   "model": "Opus 5.5",
+   "stack": "SVG/Canvas"
+  },
+  {
+   "id": "ercankeskinx-ec2568",
+   "title": "Five scroll-based sections",
+   "creator": "ercankeskinx",
+   "date": "2026-09-24",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "scroll"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ercankeskinx-ec2568",
+   "post": "https://x.com/ercankeskinx/status/2102995443818897906",
+   "thumbnail": "https://media.prompt-motion.com/ercankeskinx-gave-opus-5-5-a/poster.c36d7646.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "influencer-seo-ce8c33",
+   "title": "fal motion design showreel",
+   "creator": "influencer_seo",
+   "date": "2026-09-29",
+   "tags": [
+    "kinetic-type",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/influencer-seo-ce8c33",
+   "post": "https://x.com/influencer_seo/status/2104827314400026936",
+   "thumbnail": "https://media.prompt-motion.com/influencer-seo-opus-5-5-is-insanely/poster.ea0ce2e9.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "agonaliu-466a8f",
+   "title": "Trezio app motion reel",
+   "creator": "agonaliu_",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/agonaliu-466a8f",
+   "post": "https://x.com/agonaliu_/status/2104117465475326227",
+   "thumbnail": "https://media.prompt-motion.com/agonaliu-opus-5-5-one-shotted-this/poster.c01acba6.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "daniel-haida-8691d4",
+   "title": "Taxtello bookkeeping app film",
+   "creator": "daniel_haida",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "editorial",
+    "grid layout",
+    "shape morph",
+    "camera movement",
+    "beat sync",
+    "masked reveal",
+    "screen demo",
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/daniel-haida-8691d4",
+   "post": "https://x.com/daniel_haida/status/2104139720829636937",
+   "thumbnail": "https://media.prompt-motion.com/daniel-haida-claude-code-opus-5-5/poster.0d3769b3.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "bthreeagency-b9b8d9",
+   "title": "Badge unlock screen animation",
+   "creator": "BThreeAgency",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "phone",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/bthreeagency-b9b8d9",
+   "post": "https://x.com/BThreeAgency/status/2103739079745827092",
+   "thumbnail": "https://media.prompt-motion.com/bthreeagency-you-must-be-kidding/poster.a0a31600.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "henkvaness-0e06af",
+   "title": "Prompting mistakes video tutorial",
+   "creator": "henkvaness",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/henkvaness-0e06af",
+   "post": "https://x.com/henkvaness/status/2103801351993975279",
+   "thumbnail": "https://media.prompt-motion.com/henkvaness-the-new-claude-opus/poster.55d9bb61.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ndhabarde11-f155b4",
+   "title": "Motion designer portrait showreel",
+   "creator": "ndhabarde11",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/ndhabarde11-f155b4",
+   "post": "https://x.com/ndhabarde11/status/2103832593355686104",
+   "thumbnail": "https://media.prompt-motion.com/ndhabarde11-wtf-claude-opus-5-5/poster.04d2f6d6.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "topi-003-9ca6b5",
+   "title": "Kinetic type motion showreel",
+   "creator": "_topi_003",
+   "date": "2026-09-27",
+   "tags": [
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/topi-003-9ca6b5",
+   "post": "https://x.com/_topi_003/status/2104086342204592443",
+   "thumbnail": "https://media.prompt-motion.com/topi-003-opus5-5-15/poster.5846c268.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "rendesr-86be44",
+   "title": "Claude motion design showreel",
+   "creator": "rendesr",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/rendesr-86be44",
+   "post": "https://x.com/rendesr/status/2103395846578676116",
+   "thumbnail": "https://media.prompt-motion.com/rendesr-love-claude-opus-5-5/poster.209c7b74.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "bogdandragomir-35e024",
+   "title": "Product intro synced to music",
+   "creator": "BogdanDragomir",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/bogdandragomir-35e024",
+   "post": "https://x.com/BogdanDragomir/status/2104045641538412658",
+   "thumbnail": "https://media.prompt-motion.com/bogdandragomir-this-was-made-entirely/poster.cf291ece.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "en-ra-81c6dd",
+   "title": "Website analyzer product promo",
+   "creator": "en______ra",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Square",
+   "url": "https://prompt-motion.com/en-ra-81c6dd",
+   "post": "https://x.com/en______ra/status/2104035188061986980",
+   "thumbnail": "https://media.prompt-motion.com/en-ra-wtf-made-with-claude/poster.a2e4f693.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "jesscaroline7-1ff7cb",
+   "title": "Ondefica app motion reel",
+   "creator": "jesscaroline7",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "phone",
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/jesscaroline7-1ff7cb",
+   "post": "https://x.com/jesscaroline7/status/2104336637752955094",
+   "thumbnail": "https://media.prompt-motion.com/jesscaroline7-motion-reel-do-inspirada/poster.bb5153c3.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "theviableedge-9065be",
+   "title": "Second brain service promo",
+   "creator": "TheViableEdge",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/theviableedge-9065be",
+   "post": "https://x.com/TheViableEdge/status/2104207707980869918",
+   "thumbnail": "https://media.prompt-motion.com/theviableedge-getting-in-on-the/poster.f3985c5e.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "0xfemyn-e114d3",
+   "title": "AIsa API key promo",
+   "creator": "0xfemyn",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/0xfemyn-e114d3",
+   "post": "https://x.com/0xfemyn/status/2103796337041137833",
+   "thumbnail": "https://media.prompt-motion.com/0xfemyn-wtf-nah-opus-5-5/poster.99913bfb.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "misbahsy-80eaec",
+   "title": "LiteLLM promo reel",
+   "creator": "MisbahSy",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams",
+    "music",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/misbahsy-80eaec",
+   "post": "https://x.com/MisbahSy/status/2103831201114882277",
+   "thumbnail": "https://media.prompt-motion.com/misbahsy-opus-5-5-is-incredible/poster.d7baeada.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "reyzostyle-b55864",
+   "title": "Chunku product promo",
+   "creator": "reyzostyle",
+   "date": "2026-09-30",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/reyzostyle-b55864",
+   "post": "https://x.com/reyzostyle/status/2105421514665542114",
+   "thumbnail": "https://media.prompt-motion.com/reyzostyle-opus-5-5-literally-one/poster.edee553e.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "mdaman010-e7226a",
+   "title": "AI data centre 3D film",
+   "creator": "mdaman010",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/mdaman010-e7226a",
+   "post": "https://x.com/mdaman010/status/2103845689713111079",
+   "thumbnail": "https://media.prompt-motion.com/mdaman010-one-prompt-to-claude/poster.ba4cc586.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "motiondsgnr-9dcfa6",
+   "title": "Bold typographic motion showreel",
+   "creator": "motiondsgnr",
+   "date": "2026-09-26",
+   "tags": [
+    "charts",
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/motiondsgnr-9dcfa6",
+   "post": "https://x.com/motiondsgnr/status/2103692944771313960",
+   "thumbnail": "https://media.prompt-motion.com/motiondsgnr-yo-opus-5-5-raw/poster.99ab5fe5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "astrodevil-3f2054",
+   "title": "Studio1 intro showreel",
+   "creator": "Astrodevil_",
+   "date": "2026-09-25",
+   "tags": [
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/astrodevil-3f2054",
+   "post": "https://x.com/Astrodevil_/status/2103600734017392708",
+   "thumbnail": "https://media.prompt-motion.com/astrodevil-insane-made-with-claude/poster.6efe003d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "hoyoyoda-3a5c08",
+   "title": "Chuseok pixel night scene",
+   "creator": "hoyoyoda",
+   "date": "2026-09-25",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/hoyoyoda-3a5c08",
+   "post": "https://x.com/hoyoyoda/status/2103400046922543147",
+   "thumbnail": "https://media.prompt-motion.com/hoyoyoda-opus-5-5-prompt/poster.ec7707ce.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "macrohou-33959d",
+   "title": "Ren app launch video",
+   "creator": "macrohou",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/macrohou-33959d",
+   "post": "https://x.com/macrohou/status/2103545787875733862",
+   "thumbnail": "https://media.prompt-motion.com/macrohou-rip-motion-designers-absolutely/poster.e2f41ea5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "madhav-xo-f97f20",
+   "title": "Personal research intro reel",
+   "creator": "Madhav_XO",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "particles",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/madhav-xo-f97f20",
+   "post": "https://x.com/Madhav_XO/status/2103605007396524440",
+   "thumbnail": "https://media.prompt-motion.com/madhav-xo-pretty-cool-with-just/poster.0a07a517.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "buildfastwithai-ed9447",
+   "title": "Three.js Skyraider aircraft model",
+   "creator": "BuildFastWithAI",
+   "date": "2026-09-24",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/buildfastwithai-ed9447",
+   "post": "https://x.com/BuildFastWithAI/status/2103152898708582551",
+   "thumbnail": "https://media.prompt-motion.com/buildfastwithai-opus-5-5-high-just/poster.5f55a7c3.webp",
+   "model": "Opus 5.5",
+   "stack": "Three.js"
+  },
+  {
+   "id": "rames-jusso-589f80",
+   "title": "UK dubstep track with ASCII visuals",
+   "creator": "Rames_Jusso",
+   "date": "2026-09-24",
+   "tags": [
+    "music",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "beat sync"
+   ],
+   "format": "Square",
+   "url": "https://prompt-motion.com/rames-jusso-589f80",
+   "post": "https://x.com/Rames_Jusso/status/2103200703598776559",
+   "thumbnail": "https://media.prompt-motion.com/rames-jusso-creating-videos-with-opus/poster.e3ba7281.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "topi-003-b0e12c",
+   "title": "Anime maid dance showreel",
+   "creator": "_topi_003",
+   "date": "2026-09-27",
+   "tags": [
+    "kinetic-type",
+    "characters",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/topi-003-b0e12c",
+   "post": "https://x.com/_topi_003/status/2104088986969055288",
+   "thumbnail": "https://media.prompt-motion.com/topi-003-opus5-5-15-2/poster.a1697298.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ik-builds-b8bdcf",
+   "title": "Paper-style product launch film",
+   "creator": "ik_builds",
+   "date": "2026-09-26",
+   "tags": [
+    "charts",
+    "diagrams",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ik-builds-b8bdcf",
+   "post": "https://x.com/ik_builds/status/2103890476885585923",
+   "thumbnail": "https://media.prompt-motion.com/ik-builds-i-was-quoted-3000/poster.756fe33b.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames + GSAP"
+  },
+  {
+   "id": "wani-shola-16ca7a",
+   "title": "Developer portfolio site showreel",
+   "creator": "wani_shola",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "beat sync"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/wani-shola-16ca7a",
+   "post": "https://x.com/wani_shola/status/2103769906638459278",
+   "thumbnail": "https://media.prompt-motion.com/wani-shola-opus-5-5-is-genuinely/poster.c5d3f953.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "manuelogomigo-f33ca9",
+   "title": "Flowdrive motion showreel",
+   "creator": "manuelogomigo",
+   "date": "2026-09-25",
+   "tags": [
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/manuelogomigo-f33ca9",
+   "post": "https://x.com/manuelogomigo/status/2103614667038052364",
+   "thumbnail": "https://media.prompt-motion.com/manuelogomigo-i-gave-claude-opus/poster.e82f3f75.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "0xevinho-3777d8",
+   "title": "Pixel wizard crypto animation",
+   "creator": "0xEvinho",
+   "date": "2026-09-24",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/0xevinho-3777d8",
+   "post": "https://x.com/0xEvinho/status/2103212966703436195",
+   "thumbnail": "https://media.prompt-motion.com/0xevinho-opus-5-5-is-really/poster.05cdd2ac.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "chrisjdimarco-f068db",
+   "title": "Fiery samurai kata",
+   "creator": "chrisjdimarco",
+   "date": "2026-09-24",
+   "tags": [
+    "particles",
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/chrisjdimarco-f068db",
+   "post": "https://x.com/chrisjdimarco/status/2103232192847524106",
+   "thumbnail": "https://media.prompt-motion.com/chrisjdimarco-another-opus-5-5-test/poster.43c9cb28.webp",
+   "model": "Opus 5.5",
+   "stack": "JavaScript"
+  },
+  {
+   "id": "jayscambler-3f8889",
+   "title": "FundMyCompute platform overview",
+   "creator": "JayScambler",
+   "date": "2026-09-28",
+   "tags": [
+    "product-ui",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/jayscambler-3f8889",
+   "post": "https://x.com/JayScambler/status/2104634653491495095",
+   "thumbnail": "https://media.prompt-motion.com/jayscambler-credit-to-opus-5-5/poster.6f865da6.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "utopyaszx-1b2f94",
+   "title": "Bold Pilot SEO promo",
+   "creator": "utopyaszx",
+   "date": "2026-09-28",
+   "tags": [
+    "product-ui",
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/utopyaszx-1b2f94",
+   "post": "https://x.com/utopyaszx/status/2104665591428624771",
+   "thumbnail": "https://media.prompt-motion.com/utopyaszx-opus-5-5-medium-make/poster.7e662542.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "aschapmann-131210",
+   "title": "SaaS launch video",
+   "creator": "aschapmann",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "beat sync",
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/aschapmann-131210",
+   "post": "https://x.com/aschapmann/status/2104230888812724497",
+   "thumbnail": "https://media.prompt-motion.com/aschapmann-i-couldn-t-resist-to/poster.ed27c6f5.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "marklaunches-3b9492",
+   "title": "Step race app promo",
+   "creator": "marklaunches",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/marklaunches-3b9492",
+   "post": "https://x.com/marklaunches/status/2103811146411041046",
+   "thumbnail": "https://media.prompt-motion.com/marklaunches-getting-on-the-opus/poster.1a50288d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "web3wesley-7bb108",
+   "title": "Type, form, space showreel",
+   "creator": "Web3Wesley",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/web3wesley-7bb108",
+   "post": "https://x.com/Web3Wesley/status/2103644329294365164",
+   "thumbnail": "https://media.prompt-motion.com/web3wesley-this-took-opus-5-5/poster.ed0a8c55.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "reflex-cloud-72ffe5",
+   "title": "Reflex brand motion reel",
+   "creator": "reflex_cloud",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/reflex-cloud-72ffe5",
+   "post": "https://x.com/reflex_cloud/status/2103552840027304046",
+   "thumbnail": "https://media.prompt-motion.com/reflex-cloud-this-is-legit-insane/poster.8674e315.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "1stnoel-c20a89",
+   "title": "Sotto reading app explainer",
+   "creator": "1stnoel_",
+   "date": "2026-09-24",
+   "tags": [
+    "product-ui",
+    "phone"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/1stnoel-c20a89",
+   "post": "https://x.com/1stnoel_/status/2103247530259603851",
+   "thumbnail": "https://media.prompt-motion.com/1stnoel-i-built-this-language/poster.cff5c72b.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ryzoft-4f85bd",
+   "title": "Animated space cartoon episode",
+   "creator": "Ryzoft",
+   "date": "2026-09-24",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ryzoft-4f85bd",
+   "post": "https://x.com/Ryzoft/status/2102989395359887481",
+   "thumbnail": "https://media.prompt-motion.com/ryzoft-unrelated-to-game-development/poster.c7fcd6e1.webp",
+   "model": "Opus 5.5",
+   "stack": "Three.js"
+  },
+  {
+   "id": "kamstudiolabs-c9bb28",
+   "title": "Animated short about a bug",
+   "creator": "KamStudioLabs",
+   "date": "2026-09-23",
+   "tags": [
+    "characters",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kamstudiolabs-c9bb28",
+   "post": "https://x.com/KamStudioLabs/status/2102903173161877996",
+   "thumbnail": "https://media.prompt-motion.com/kamstudiolabs-opus-5-5-second-prompt/poster.e16225c9.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "devius-maximus-beab45",
+   "title": "Dubz Up motion showreel",
+   "creator": "Devius_Maximus",
+   "date": "2026-09-29",
+   "tags": [
+    "product-ui",
+    "phone",
+    "kinetic-type",
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/devius-maximus-beab45",
+   "post": "https://x.com/Devius_Maximus/status/2105069053521887428",
+   "thumbnail": "https://media.prompt-motion.com/devius-maximus-this-is-nuts-made/poster.42657858.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "elliot-garreffa-f334bc",
+   "title": "Muse connector tracker promo",
+   "creator": "elliot_garreffa",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/elliot-garreffa-f334bc",
+   "post": "https://x.com/elliot_garreffa/status/2104213514944446825",
+   "thumbnail": "https://media.prompt-motion.com/elliot-garreffa-alright-opus-5-5-is/poster.1863ee37.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "adamdesgns-478d6d",
+   "title": "Fitters Bible app promo",
+   "creator": "Adamdesgns",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/adamdesgns-478d6d",
+   "post": "https://x.com/Adamdesgns/status/2103542756555768014",
+   "thumbnail": "https://media.prompt-motion.com/adamdesgns-wtf-made-with-single/poster.a2042332.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "andginja-333d32",
+   "title": "Studio website showreel",
+   "creator": "andginja",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/andginja-333d32",
+   "post": "https://x.com/andginja/status/2103492000733618685",
+   "thumbnail": "https://media.prompt-motion.com/andginja-i-gave-claude-opus/poster.a7f9cc9d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "l3d1c-0e35a3",
+   "title": "PicTwin AI app ad",
+   "creator": "l3d1c",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/l3d1c-0e35a3",
+   "post": "https://x.com/l3d1c/status/2103536553930752011",
+   "thumbnail": "https://media.prompt-motion.com/l3d1c-claude-opus-5-5-made/poster.009f82f1.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "wozu-co-242285",
+   "title": "Supasito launch video",
+   "creator": "wozu_co",
+   "date": "2026-10-01",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/wozu-co-242285",
+   "post": "https://x.com/wozu_co/status/2105662660779893062",
+   "thumbnail": "https://media.prompt-motion.com/wozu-co-the-prompt-i-used/poster.80b47b3e.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "buildfastwithai-53234e",
+   "title": "Indian civilisation history film",
+   "creator": "BuildFastWithAI",
+   "date": "2026-09-28",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt",
+    "skill"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/buildfastwithai-53234e",
+   "post": "https://x.com/BuildFastWithAI/status/2104451249269780900",
+   "thumbnail": "https://media.prompt-motion.com/buildfastwithai-opus-5-5-just-created/poster.62636b55.webp",
+   "skill": "https://github.com/buildfastwithai/buildfast-skills/tree/main/generative-film-skill",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "allforbigfire-86ff3c",
+   "title": "Anime robot combining sequence",
+   "creator": "allforbigfire",
+   "date": "2026-09-27",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/allforbigfire-86ff3c",
+   "post": "https://x.com/allforbigfire/status/2104193522715029657",
+   "thumbnail": "https://media.prompt-motion.com/allforbigfire-3-3d-cg-claude-opus-5-5-bgm-python/poster.1884493b.webp",
+   "model": "Opus 5.5",
+   "stack": "Python"
+  },
+  {
+   "id": "tstfully-0aa6b4",
+   "title": "YouTube transcript product ad",
+   "creator": "tstfully",
+   "date": "2026-09-27",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/tstfully-0aa6b4",
+   "post": "https://x.com/tstfully/status/2104033772949680192",
+   "thumbnail": "https://media.prompt-motion.com/tstfully-this-is-insane-with/poster.8e72db23.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "bizibeast-10f264",
+   "title": "Bento.surf product video",
+   "creator": "bizibeast",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "phone"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/bizibeast-10f264",
+   "post": "https://x.com/bizibeast/status/2103696876130505124",
+   "thumbnail": "https://media.prompt-motion.com/bizibeast-motion-designers-are-cooked/poster.f7d9d782.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "heyiammallik-e72d17",
+   "title": "Portfolio motion reel",
+   "creator": "heyiammallik",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/heyiammallik-e72d17",
+   "post": "https://x.com/heyiammallik/status/2103837803587293397",
+   "thumbnail": "https://media.prompt-motion.com/heyiammallik-i-asked-opus-5-5/poster.5f956273.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "sudiyasa-f48ac9",
+   "title": "EyezOn 100 users thank-you",
+   "creator": "Sudiyasa_",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sudiyasa-f48ac9",
+   "post": "https://x.com/Sudiyasa_/status/2103638831669076027",
+   "thumbnail": "https://media.prompt-motion.com/sudiyasa-celerating-100-eyezonbot-users/poster.a1404436.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "davidshulmanfl-371638",
+   "title": "Clay-style music video",
+   "creator": "DavidShulmanFL",
+   "date": "2026-09-25",
+   "tags": [
+    "characters",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/davidshulmanfl-371638",
+   "post": "https://x.com/DavidShulmanFL/status/2103336310089842921",
+   "thumbnail": "https://media.prompt-motion.com/davidshulmanfl-opus-5-5-prompt-create/poster.741afe00.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "demitiyageekzen-7770ad",
+   "title": "Tengwang Pavilion moonlit river",
+   "creator": "DemitiyaGeekzen",
+   "date": "2026-09-25",
+   "tags": [],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/demitiyageekzen-7770ad",
+   "post": "https://x.com/DemitiyaGeekzen/status/2103517910274818523",
+   "thumbnail": "https://media.prompt-motion.com/demitiyageekzen-opus5-5-30s-html/poster.0f73a97f.webp",
+   "model": "Opus 5.5",
+   "stack": "WebGL2 + Canvas 2D + Web Audio"
+  },
+  {
+   "id": "faroukzy-9ff23e",
+   "title": "The Last Light animated short",
+   "creator": "faroukzy",
+   "date": "2026-09-25",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/faroukzy-9ff23e",
+   "post": "https://x.com/faroukzy/status/2103387771180138551",
+   "thumbnail": "https://media.prompt-motion.com/faroukzy-i-gave-claude-opus/poster.450c50f1.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "m1n9-k7-ff9ab9",
+   "title": "Kinetic type and particle showreel",
+   "creator": "m1n9_k7",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/m1n9-k7-ff9ab9",
+   "post": "https://x.com/m1n9_k7/status/2103580011882295601",
+   "thumbnail": "https://media.prompt-motion.com/m1n9-k7-this-is-insane-opus/poster.ad4942dc.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "quickdesignio-dd93d0",
+   "title": "QuickDesign brand promo",
+   "creator": "quickdesignio",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "kinetic-type",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/quickdesignio-dd93d0",
+   "post": "https://x.com/quickdesignio/status/2103617779857338399",
+   "thumbnail": "https://media.prompt-motion.com/quickdesignio-opus-5-5-this-entire/poster.1e83b6f3.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "rebutonepress-810f78",
+   "title": "Black hole time story",
+   "creator": "RebutonePress",
+   "date": "2026-09-25",
+   "tags": [],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/rebutonepress-810f78",
+   "post": "https://x.com/RebutonePress/status/2103478369245688099",
+   "thumbnail": "https://media.prompt-motion.com/rebutonepress-opus-5-5-5-devshell-demo/poster.8495152f.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "slvdev-64c45a",
+   "title": "Claude self-promo spot",
+   "creator": "slvDev",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/slvdev-64c45a",
+   "post": "https://x.com/slvDev/status/2103569170075975986",
+   "thumbnail": "https://media.prompt-motion.com/slvdev-opus-5-5-max-motion/poster.40b2b073.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "sudo-kiran-4f8b59",
+   "title": "DistilBook product explainer",
+   "creator": "sudo_kiran",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sudo-kiran-4f8b59",
+   "post": "https://x.com/sudo_kiran/status/2103486573476254201",
+   "thumbnail": "https://media.prompt-motion.com/sudo-kiran-i-have-asked-opus/poster.dc394fff.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "xelandre-363f00",
+   "title": "SaaS product launch video",
+   "creator": "xelandre__",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/xelandre-363f00",
+   "post": "https://x.com/xelandre__/status/2103473030160687413",
+   "thumbnail": "https://media.prompt-motion.com/xelandre-wtf-avec-ce-prompt/poster.1b90636f.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML/JS, Playwright, ffmpeg"
+  },
+  {
+   "id": "justincooperman-e7bbc4",
+   "title": "Tented image gen product video",
+   "creator": "justincooperman",
+   "date": "2026-09-24",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/justincooperman-e7bbc4",
+   "post": "https://x.com/justincooperman/status/2103201167367188876",
+   "thumbnail": "https://media.prompt-motion.com/justincooperman-opus-5-5-one-shotted-a/poster.c68244b5.webp",
+   "model": "Opus 5.5",
+   "stack": "Blender"
+  },
+  {
+   "id": "henkpoley-3d3407",
+   "title": "Deliberately terrible motion showreel",
+   "creator": "HenkPoley",
+   "date": "2026-09-27",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/henkpoley-3d3407",
+   "post": "https://x.com/HenkPoley/status/2104220387613761980",
+   "thumbnail": "https://media.prompt-motion.com/henkpoley-opus-5-5-on-max/poster.63c12fbf.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "fractadev-149adc",
+   "title": "Voice agent SaaS launch",
+   "creator": "FractaDev",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/fractadev-149adc",
+   "post": "https://x.com/FractaDev/status/2103941789744861266",
+   "thumbnail": "https://media.prompt-motion.com/fractadev-wow-made-with-claude/poster.d70e1a19.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "gautam-mer1-2ae354",
+   "title": "Matra caption app promo",
+   "creator": "gautam_mer1",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "phone",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "captions"
+   ],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/gautam-mer1-2ae354",
+   "post": "https://x.com/gautam_mer1/status/2103703336780530003",
+   "thumbnail": "https://media.prompt-motion.com/gautam-mer1-i-asked-claude-opus/poster.c0d6899e.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion, React"
+  },
+  {
+   "id": "levabashidze-2d713a",
+   "title": "Swiss-style motion showreel",
+   "creator": "levabashidze",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/levabashidze-2d713a",
+   "post": "https://x.com/levabashidze/status/2103786742520184909",
+   "thumbnail": "https://media.prompt-motion.com/levabashidze-i-made-this-15/poster.bc688c41.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "miskinho-443898",
+   "title": "Quetzal social app reel",
+   "creator": "miskinho_",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/miskinho-443898",
+   "post": "https://x.com/miskinho_/status/2103847584531956105",
+   "thumbnail": "https://media.prompt-motion.com/miskinho-que-maravilla-opus-5-5/poster.d106a67f.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "zaqailo-212ad3",
+   "title": "Motion designer showreel",
+   "creator": "zaqailo",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/zaqailo-212ad3",
+   "post": "https://x.com/zaqailo/status/2103768009017835623",
+   "thumbnail": "https://media.prompt-motion.com/zaqailo-the-consistency-of-opus/poster.7fc593d3.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "crazyalphaaa-bc7e75",
+   "title": "Claude motion designer showreel",
+   "creator": "CrazyAlphaaa",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/crazyalphaaa-bc7e75",
+   "post": "https://x.com/CrazyAlphaaa/status/2103568486249480622",
+   "thumbnail": "https://media.prompt-motion.com/crazyalphaaa-wtf-made-with-claude/poster.4a4a600c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "fionntobin-97b7af",
+   "title": "Blue editorial motion showreel",
+   "creator": "fionntobin",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "editorial"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/fionntobin-97b7af",
+   "post": "https://x.com/fionntobin/status/2103510776690479597",
+   "thumbnail": "https://media.prompt-motion.com/fionntobin-the-new-opus-5-5/poster.ce572981.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "francoxavier33-d2dfd2",
+   "title": "Parenting app hype video",
+   "creator": "francoxavier33",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/francoxavier33-d2dfd2",
+   "post": "https://x.com/francoxavier33/status/2103486218323341663",
+   "thumbnail": "https://media.prompt-motion.com/francoxavier33-this-was-100-opus/poster.464eb939.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "itsuki-dev-10942d",
+   "title": "Kinetic type showreel",
+   "creator": "itsuki_dev",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/itsuki-dev-10942d",
+   "post": "https://x.com/itsuki_dev/status/2103438087204618392",
+   "thumbnail": "https://media.prompt-motion.com/itsuki-dev-opus-5-5-cooked-this/poster.e81df4db.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "kangaroohere-b10f8d",
+   "title": "Motion designer showreel",
+   "creator": "KangarooHere",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone",
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kangaroohere-b10f8d",
+   "post": "https://x.com/KangarooHere/status/2103617278671818789",
+   "thumbnail": "https://media.prompt-motion.com/kangaroohere-god-damnnn-made-with/poster.d0272aca.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "kyonax-on-tech-aabc1d",
+   "title": "org2html product showreel",
+   "creator": "kyonax_on_tech",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kyonax-on-tech-aabc1d",
+   "post": "https://x.com/kyonax_on_tech/status/2103482598144049316",
+   "thumbnail": "https://media.prompt-motion.com/kyonax-on-tech-yes-i-also-did/poster.f8558a96.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "loicrambo-ad6830",
+   "title": "Cycle of life animation",
+   "creator": "loicRambo",
+   "date": "2026-09-25",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/loicrambo-ad6830",
+   "post": "https://x.com/loicRambo/status/2103428454355980558",
+   "thumbnail": "https://media.prompt-motion.com/loicrambo-just-one-shot-the/poster.4761b057.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "madebyjmayala-b9204d",
+   "title": "Gene Spectra promo",
+   "creator": "madebyjmayala",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/madebyjmayala-b9204d",
+   "post": "https://x.com/madebyjmayala/status/2103578285892649220",
+   "thumbnail": "https://media.prompt-motion.com/madebyjmayala-opus-5-5-is-actually/poster.f4d04628.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "tolgayhickiran-e90799",
+   "title": "Motion design principles reel",
+   "creator": "tolgayhickiran",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/tolgayhickiran-e90799",
+   "post": "https://x.com/tolgayhickiran/status/2103619422128935120",
+   "thumbnail": "https://media.prompt-motion.com/tolgayhickiran-motion-graphics-from-a/poster.1a4fb1d0.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "antonio-kodheli-490109",
+   "title": "Prompt Motion site promo",
+   "creator": "antonio_kodheli",
+   "date": "2026-10-06",
+   "tags": [
+    "product-ui",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout",
+    "scroll",
+    "beat sync"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/antonio-kodheli-490109",
+   "post": "https://x.com/antonio_kodheli/status/2107518066615582893",
+   "thumbnail": "https://media.prompt-motion.com/antonio-kodheli-490109/poster.6bfc49ac.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "oliahmed205-3e31c4",
+   "title": "Photo retouch app promo",
+   "creator": "oliahmed205",
+   "date": "2026-09-28",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "screen demo"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/oliahmed205-3e31c4",
+   "post": "https://x.com/oliahmed205/status/2104679078465069378",
+   "thumbnail": "https://media.prompt-motion.com/oliahmed205-just-tried-opus-5-5/poster.cdcfc310.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "aisongman-71ffac",
+   "title": "Pixel art card battle game",
+   "creator": "aisongman",
+   "date": "2026-09-26",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "retro"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/aisongman-71ffac",
+   "post": "https://x.com/aisongman/status/2103763192971461057",
+   "thumbnail": "https://media.prompt-motion.com/aisongman-this-is-insane-i/poster.f70df6ff.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "danilowm-d3720d",
+   "title": "Motion designer showreel",
+   "creator": "danilowm",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/danilowm-d3720d",
+   "post": "https://x.com/danilowm/status/2103661844661412022",
+   "thumbnail": "https://media.prompt-motion.com/danilowm-cursor-usando-o-opus/poster.64e4000c.webp",
+   "model": "Opus 5.5",
+   "stack": "HyperFrames"
+  },
+  {
+   "id": "kmasiff-cc72cb",
+   "title": "Email verification tool promo",
+   "creator": "KmAsiff",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kmasiff-cc72cb",
+   "post": "https://x.com/KmAsiff/status/2103810247131549880",
+   "thumbnail": "https://media.prompt-motion.com/kmasiff-prompt-opus-5-5-high/poster.b328bda5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "pluginplay-3d4006",
+   "title": "Pixel art LLM history",
+   "creator": "PluginPlay__",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams",
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "retro"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/pluginplay-3d4006",
+   "post": "https://x.com/PluginPlay__/status/2103910844677472343",
+   "thumbnail": "https://media.prompt-motion.com/pluginplay-we-re-cooked-pixel-art/poster.369d8d33.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "rammanq-f5a90f",
+   "title": "AllInvestView product promo",
+   "creator": "rammanq",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "phone",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Square",
+   "url": "https://prompt-motion.com/rammanq-f5a90f",
+   "post": "https://x.com/rammanq/status/2103788796022034553",
+   "thumbnail": "https://media.prompt-motion.com/rammanq-wow-just-tried-this/poster.fbd02c1a.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "robvjourney-ce3e1a",
+   "title": "Nohandslabs brand promo",
+   "creator": "robvjourney",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "particles",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/robvjourney-ce3e1a",
+   "post": "https://x.com/robvjourney/status/2103768390322237474",
+   "thumbnail": "https://media.prompt-motion.com/robvjourney-opus-5-5-is-cooking/poster.de6252e3.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "vanshwtfff-db0466",
+   "title": "Motion designer showreel",
+   "creator": "VanshWTFFF",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/vanshwtfff-db0466",
+   "post": "https://x.com/VanshWTFFF/status/2103644352794992798",
+   "thumbnail": "https://media.prompt-motion.com/vanshwtfff-this-is-seriously-crazy/poster.5ce5ffd0.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "3xtihor-0f6911",
+   "title": "Claude motion designer showreel",
+   "creator": "3xtihor",
+   "date": "2026-09-25",
+   "tags": [
+    "charts",
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/3xtihor-0f6911",
+   "post": "https://x.com/3xtihor/status/2103551886272159839",
+   "thumbnail": "https://media.prompt-motion.com/3xtihor-made-with-claude-opus/poster.7a2844d7.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "amol909s-27533e",
+   "title": "Commotion app showreel",
+   "creator": "Amol909S",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/amol909s-27533e",
+   "post": "https://x.com/Amol909S/status/2103456534768607293",
+   "thumbnail": "https://media.prompt-motion.com/amol909s-opus-5-5-on-medium/poster.c62deccd.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "cansincengiz-me-cf68dd",
+   "title": "Lidlezz app promo",
+   "creator": "cansincengiz_me",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Square",
+   "url": "https://prompt-motion.com/cansincengiz-me-cf68dd",
+   "post": "https://x.com/cansincengiz_me/status/2103532681774424245",
+   "thumbnail": "https://media.prompt-motion.com/cansincengiz-me-bu-videoyu-sadece-claude/poster.ced86702.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ghinaiya-nirmal-5d8fec",
+   "title": "Claude motion design reel",
+   "creator": "ghinaiya_nirmal",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ghinaiya-nirmal-5d8fec",
+   "post": "https://x.com/ghinaiya_nirmal/status/2103540656182308943",
+   "thumbnail": "https://media.prompt-motion.com/ghinaiya-nirmal-motion-designers-are-cooked/poster.47b2e80f.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "johnsavage-ai-b091c0",
+   "title": "Code-only motion design reel",
+   "creator": "johnsavage_ai",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/johnsavage-ai-b091c0",
+   "post": "https://x.com/johnsavage_ai/status/2103600308010041677",
+   "thumbnail": "https://media.prompt-motion.com/johnsavage-ai-opus-5-5-prompt-make/poster.b0fbf054.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "leonkohli-6dc01b",
+   "title": "Geometric motion designer showreel",
+   "creator": "LeonKohli",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/leonkohli-6dc01b",
+   "post": "https://x.com/LeonKohli/status/2103517696038191220",
+   "thumbnail": "https://media.prompt-motion.com/leonkohli-opus-5-5-is-crazy/poster.30edcb65.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "marouanegazouzi-6071d5",
+   "title": "Crux motion design showreel",
+   "creator": "marouanegazouzi",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "charts",
+    "kinetic-type",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/marouanegazouzi-6071d5",
+   "post": "https://x.com/marouanegazouzi/status/2103608571435131257",
+   "thumbnail": "https://media.prompt-motion.com/marouanegazouzi-omg-the-15-second-motion/poster.68ff4ef2.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "mehul4795-4a7007",
+   "title": "ocrX app launch video",
+   "creator": "mehul4795",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/mehul4795-4a7007",
+   "post": "https://x.com/mehul4795/status/2103420457110417532",
+   "thumbnail": "https://media.prompt-motion.com/mehul4795-used-the-below-one/poster.348c47a5.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "safarkhanshuvo-ffd52d",
+   "title": "Motion design showreel",
+   "creator": "safarkhanshuvo",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/safarkhanshuvo-ffd52d",
+   "post": "https://x.com/safarkhanshuvo/status/2103520091552059752",
+   "thumbnail": "https://media.prompt-motion.com/safarkhanshuvo-this-is-insane-claude/poster.a0d0a2b4.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "sahildesigner23-ee3155",
+   "title": "3D motion design showreel",
+   "creator": "sahildesigner23",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "3D"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/sahildesigner23-ee3155",
+   "post": "https://x.com/sahildesigner23/status/2103536115563307120",
+   "thumbnail": "https://media.prompt-motion.com/sahildesigner23-ok-opus-5-5-max/poster.d8f65076.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "abderrahmen-g-9e8ed0",
+   "title": "Sketchbook animals come alive",
+   "creator": "abderrahmen_g",
+   "date": "2026-09-24",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "hand drawn"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/abderrahmen-g-9e8ed0",
+   "post": "https://x.com/abderrahmen_g/status/2103103836541899031",
+   "thumbnail": "https://media.prompt-motion.com/abderrahmen-g-opus-5-5-is-mind/poster.2993e6a0.webp",
+   "model": "Opus 5.5",
+   "stack": "JavaScript"
+  },
+  {
+   "id": "palashbagchi11-0a4b6b",
+   "title": "Backlink audit data promo",
+   "creator": "PalashBagchi11",
+   "date": "2026-09-24",
+   "tags": [
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/palashbagchi11-0a4b6b",
+   "post": "https://x.com/PalashBagchi11/status/2102924409124389221",
+   "thumbnail": "https://media.prompt-motion.com/palashbagchi11-claudeai-then-i-asked/poster.60be7240.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "x4b47x-9cc84f",
+   "title": "Shadow theatre home story",
+   "creator": "x4b47x",
+   "date": "2026-09-24",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "paper collage"
+   ],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/x4b47x-9cc84f",
+   "post": "https://x.com/x4b47x/status/2103019799614034026",
+   "thumbnail": "https://media.prompt-motion.com/x4b47x-opus-5-5-one-shot/poster.57867390.webp",
+   "model": "Opus 5.5",
+   "stack": "JavaScript"
+  },
+  {
+   "id": "kamstudiolabs-447565",
+   "title": "Collision-driven music machine",
+   "creator": "KamStudioLabs",
+   "date": "2026-09-23",
+   "tags": [
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kamstudiolabs-447565",
+   "post": "https://x.com/KamStudioLabs/status/2102899866762440893",
+   "thumbnail": "https://media.prompt-motion.com/kamstudiolabs-opus-5-5-one-prompt/poster.0e100e44.webp",
+   "model": "Opus 5.5",
+   "stack": "HTML"
+  },
+  {
+   "id": "grace-sunnyy-29bc61",
+   "title": "Keyframe motion design reel",
+   "creator": "Grace_sunnyy",
+   "date": "2026-10-03",
+   "tags": [
+    "kinetic-type",
+    "particles",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/grace-sunnyy-29bc61",
+   "post": "https://x.com/Grace_sunnyy/status/2106532575712022677",
+   "thumbnail": "https://media.prompt-motion.com/grace-sunnyy-opus5-5-15/poster.c59781f8.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "blueoctopusai-dd17bd",
+   "title": "First & 10 yellow line explainer",
+   "creator": "blueoctopusai",
+   "date": "2026-09-30",
+   "tags": [
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/blueoctopusai-dd17bd",
+   "post": "https://x.com/blueoctopusai/status/2105116391439270222",
+   "thumbnail": "https://media.prompt-motion.com/blueoctopusai-make-a-motion-graphics/poster.89efe649.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "apoorvjain25-d24184",
+   "title": "Photon journey from the Sun",
+   "creator": "apoorvjain25",
+   "date": "2026-09-29",
+   "tags": [
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/apoorvjain25-d24184",
+   "post": "https://x.com/apoorvjain25/status/2104818940467945542",
+   "thumbnail": "https://media.prompt-motion.com/apoorvjain25-i-gave-claude-opus/poster.1e082777.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "deebeeeff-50fcd0",
+   "title": "Recipe brand 20th anniversary",
+   "creator": "deebeeeff",
+   "date": "2026-09-29",
+   "tags": [
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Square",
+   "url": "https://prompt-motion.com/deebeeeff-50fcd0",
+   "post": "https://x.com/deebeeeff/status/2104952364365234301",
+   "thumbnail": "https://media.prompt-motion.com/deebeeeff-gave-this-image-to/poster.11fa050c.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "listudio-820c7b",
+   "title": "GenVizu product launch",
+   "creator": "listudio",
+   "date": "2026-09-28",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/listudio-820c7b",
+   "post": "https://x.com/listudio/status/2104431418114023803",
+   "thumbnail": "https://media.prompt-motion.com/listudio-tell-opus-5-5-prompt/poster.fb7fe1a8.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "thilina-a-891c09",
+   "title": "sweetRegret app update reel",
+   "creator": "thilina_a",
+   "date": "2026-09-28",
+   "tags": [
+    "product-ui",
+    "phone",
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/thilina-a-891c09",
+   "post": "https://x.com/thilina_a/status/2104455320424915273",
+   "thumbnail": "https://media.prompt-motion.com/thilina-a-i-also-tried-it/poster.74680e34.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "aichrislee-a6cb42",
+   "title": "Motion designer showreel",
+   "creator": "aichrislee",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/aichrislee-a6cb42",
+   "post": "https://x.com/aichrislee/status/2103878567540961335",
+   "thumbnail": "https://media.prompt-motion.com/aichrislee-opus-5-5-is-insane/poster.46b6982f.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "amitsingha89-150378",
+   "title": "Handwoven textiles brand explainer",
+   "creator": "AmitSingha89",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/amitsingha89-150378",
+   "post": "https://x.com/AmitSingha89/status/2103737604277780553",
+   "thumbnail": "https://media.prompt-motion.com/amitsingha89-opus-5-5-made-this/poster.c478f2cb.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "blushpetal795-0c85c2",
+   "title": "Recruiter self-intro reel",
+   "creator": "blushpetal795",
+   "date": "2026-09-26",
+   "tags": [
+    "charts",
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/blushpetal795-0c85c2",
+   "post": "https://x.com/blushpetal795/status/2103744870041170220",
+   "thumbnail": "https://media.prompt-motion.com/blushpetal795-wtf-made-this-with/poster.2bf640db.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ceowinkz-7c776b",
+   "title": "Amazon wholesale pitch video",
+   "creator": "ceowinkz",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ceowinkz-7c776b",
+   "post": "https://x.com/ceowinkz/status/2103647124126683602",
+   "thumbnail": "https://media.prompt-motion.com/ceowinkz-wtf-ai-just-made/poster.94f1494d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ibrahimwasim240-809370",
+   "title": "Personal skills showreel",
+   "creator": "ibrahimwasim240",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "particles",
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ibrahimwasim240-809370",
+   "post": "https://x.com/ibrahimwasim240/status/2103943233432940763",
+   "thumbnail": "https://media.prompt-motion.com/ibrahimwasim240-opus-5-5-max-effort/poster.1b41a207.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "jazzen-chen-4542ae",
+   "title": "AgentHud project motion video",
+   "creator": "Jazzen_Chen",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/jazzen-chen-4542ae",
+   "post": "https://x.com/Jazzen_Chen/status/2103751442393894989",
+   "thumbnail": "https://media.prompt-motion.com/jazzen-chen-someone-on-reddit-asked/poster.bdb066d9.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "lester-tyy-f897f7",
+   "title": "CloudJoi search showcase",
+   "creator": "lester_tyy",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui",
+    "photos"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/lester-tyy-f897f7",
+   "post": "https://x.com/lester_tyy/status/2103733819568480587",
+   "thumbnail": "https://media.prompt-motion.com/lester-tyy-opus-5-5-is-crazy/poster.20f304f7.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "majorbaguette-fb11d7",
+   "title": "Brieform product presentation",
+   "creator": "MajorBaguette",
+   "date": "2026-09-26",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/majorbaguette-fb11d7",
+   "post": "https://x.com/MajorBaguette/status/2103849602826834228",
+   "thumbnail": "https://media.prompt-motion.com/majorbaguette-opus-5-5-is-pretty/poster.f887a23a.webp",
+   "model": "Opus 5.5",
+   "stack": "Remotion"
+  },
+  {
+   "id": "nolkeeg-bf062e",
+   "title": "What happens in one second",
+   "creator": "nolkeeg",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/nolkeeg-bf062e",
+   "post": "https://x.com/nolkeeg/status/2103841917603635633",
+   "thumbnail": "https://media.prompt-motion.com/nolkeeg-with-everyone-sharing-opus/poster.d101fe21.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "souravbhar871-61f424",
+   "title": "Kinetic type self-portrait",
+   "creator": "souravbhar871",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "typography"
+   ],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/souravbhar871-61f424",
+   "post": "https://x.com/souravbhar871/status/2103711849703477361",
+   "thumbnail": "https://media.prompt-motion.com/souravbhar871-my-first-experiment-with/poster.a2385877.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "spearwtf-3c1fd1",
+   "title": "Chain.wtf pitch video",
+   "creator": "SPEARwtf",
+   "date": "2026-09-26",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/spearwtf-3c1fd1",
+   "post": "https://x.com/SPEARwtf/status/2103857153308029058",
+   "thumbnail": "https://media.prompt-motion.com/spearwtf-so-i-wanted-to/poster.7cc1f7bb.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "teslachartz-c58b32",
+   "title": "Motion designer showreel",
+   "creator": "TeslaChartz",
+   "date": "2026-09-26",
+   "tags": [
+    "diagrams",
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/teslachartz-c58b32",
+   "post": "https://x.com/TeslaChartz/status/2103746486978887985",
+   "thumbnail": "https://media.prompt-motion.com/teslachartz-claude-opus-5-5-leaves/poster.b3dba57a.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "ai-baymax-0ef9dd",
+   "title": "FigPad product promo",
+   "creator": "Ai_Baymax",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/ai-baymax-0ef9dd",
+   "post": "https://x.com/Ai_Baymax/status/2103411004902416787",
+   "thumbnail": "https://media.prompt-motion.com/ai-baymax-tried-opus-5-5-for/poster.0c203659.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "anas0ra-e57aea",
+   "title": "Shop chatbot mascot promo",
+   "creator": "anas0ra",
+   "date": "2026-09-25",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/anas0ra-e57aea",
+   "post": "https://x.com/anas0ra/status/2103490331815952637",
+   "thumbnail": "https://media.prompt-motion.com/anas0ra-franchement-opus-5-5-c-est/poster.0248e577.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "iammxfschr-d68f90",
+   "title": "Database client launch video",
+   "creator": "iamMXFSCHR",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "code"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/iammxfschr-d68f90",
+   "post": "https://x.com/iamMXFSCHR/status/2103619221296955831",
+   "thumbnail": "https://media.prompt-motion.com/iammxfschr-a-little-spoiler-because/poster.55289293.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "kikelopezdesign-7cc9e8",
+   "title": "Design portfolio video reel",
+   "creator": "kikelopezdesign",
+   "date": "2026-09-25",
+   "tags": [
+    "product-ui",
+    "phone"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kikelopezdesign-7cc9e8",
+   "post": "https://x.com/kikelopezdesign/status/2103527289619173471",
+   "thumbnail": "https://media.prompt-motion.com/kikelopezdesign-lol-i-asked-opus/poster.357834e1.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "leadnotifi-e83f94",
+   "title": "Lead Notifi product ad",
+   "creator": "leadnotifi",
+   "date": "2026-09-25",
+   "tags": [
+    "diagrams",
+    "kinetic-type",
+    "shapes"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/leadnotifi-e83f94",
+   "post": "https://x.com/leadnotifi/status/2103628028391960983",
+   "thumbnail": "https://media.prompt-motion.com/leadnotifi-opus-5-5-i-made/poster.2c59100d.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "rneayan-474bcf",
+   "title": "Risograph studio intro",
+   "creator": "rneayan",
+   "date": "2026-09-25",
+   "tags": [
+    "diagrams",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/rneayan-474bcf",
+   "post": "https://x.com/rneayan/status/2103401006281441493",
+   "thumbnail": "https://media.prompt-motion.com/rneayan-opus-5-5-risograph-style/poster.d11d9f37.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "rneayan-ea6129",
+   "title": "Oscilloscope-style studio motion graphic",
+   "creator": "rneayan",
+   "date": "2026-09-25",
+   "tags": [
+    "charts",
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/rneayan-ea6129",
+   "post": "https://x.com/rneayan/status/2103401461837406275",
+   "thumbnail": "https://media.prompt-motion.com/rneayan-opus-5-5-oscilloscope-style/poster.c7d722ca.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "samaote-5e2fc2",
+   "title": "Synced lyrics motion video",
+   "creator": "samaote",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/samaote-5e2fc2",
+   "post": "https://x.com/samaote/status/2103510974796124569",
+   "thumbnail": "https://media.prompt-motion.com/samaote-that-is-so-crazy/poster.5e2f7374.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "shinskinakamoto-20190b",
+   "title": "Kinetic shapes showreel",
+   "creator": "Shinskinakamoto",
+   "date": "2026-09-25",
+   "tags": [
+    "kinetic-type",
+    "shapes",
+    "particles"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/shinskinakamoto-20190b",
+   "post": "https://x.com/Shinskinakamoto/status/2103580532852589043",
+   "thumbnail": "https://media.prompt-motion.com/shinskinakamoto-claude-opus-5-5-is/poster.e3c2dbd9.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "anilraok-eff262",
+   "title": "Scrabble tile character story",
+   "creator": "Anilraok",
+   "date": "2026-09-24",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [
+    "grid layout"
+   ],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/anilraok-eff262",
+   "post": "https://x.com/Anilraok/status/2103087766662009118",
+   "thumbnail": "https://media.prompt-motion.com/anilraok-here-s-my-prompt-to/poster.f770ff50.webp",
+   "model": "Opus 5.5",
+   "stack": "Three.js"
+  },
+  {
+   "id": "kantamk-61f410",
+   "title": "Ball escaping twelve rings",
+   "creator": "kantamk",
+   "date": "2026-09-24",
+   "tags": [
+    "shapes",
+    "music"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/kantamk-61f410",
+   "post": "https://x.com/kantamk/status/2103148907228176511",
+   "thumbnail": "https://media.prompt-motion.com/kantamk-i-gave-claude-opus/poster.d5c06700.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "parkerrex-1a54fe",
+   "title": "Token bucket rate limiter",
+   "creator": "ParkerRex",
+   "date": "2026-09-24",
+   "tags": [
+    "charts",
+    "diagrams"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Square",
+   "url": "https://prompt-motion.com/parkerrex-1a54fe",
+   "post": "https://x.com/ParkerRex/status/2103206747846701462",
+   "thumbnail": "https://media.prompt-motion.com/parkerrex-3-ole-lehmann-s-list/poster.fffbaf1e.webp",
+   "model": "Opus 5.5",
+   "stack": "Canvas"
+  },
+  {
+   "id": "charlesmendez-73b6e4",
+   "title": "Datagran ChatGPT ads explainer",
+   "creator": "charlesmendez",
+   "date": "2026-09-23",
+   "tags": [
+    "product-ui",
+    "phone",
+    "charts"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/charlesmendez-73b6e4",
+   "post": "https://x.com/charlesmendez/status/2102847039415476517",
+   "thumbnail": "https://media.prompt-motion.com/charlesmendez-holly-cow-just-asked/poster.df3a92e8.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "gonzalomacagno-2de1a9",
+   "title": "Festival lineup promo reel",
+   "creator": "GonzaloMacagno",
+   "date": "2026-09-23",
+   "tags": [
+    "kinetic-type"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Portrait",
+   "url": "https://prompt-motion.com/gonzalomacagno-2de1a9",
+   "post": "https://x.com/GonzaloMacagno/status/2102897651008344202",
+   "thumbnail": "https://media.prompt-motion.com/gonzalomacagno-que-locura-opus-5-5/poster.3d2142ee.webp",
+   "model": "Opus 5.5"
+  },
+  {
+   "id": "kamstudiolabs-0b0824",
+   "title": "Lighthouse keeper silent short",
+   "creator": "KamStudioLabs",
+   "date": "2026-09-23",
+   "tags": [
+    "characters"
+   ],
+   "kind": [
+    "prompt"
+   ],
+   "techniques": [],
+   "format": "Landscape",
+   "url": "https://prompt-motion.com/kamstudiolabs-0b0824",
+   "post": "https://x.com/KamStudioLabs/status/2102908742518100086",
+   "thumbnail": "https://media.prompt-motion.com/kamstudiolabs-opus-5-5-third-prompt/poster.44de3d48.webp",
+   "model": "Opus 5.5"
+  }
+ ]
+}
