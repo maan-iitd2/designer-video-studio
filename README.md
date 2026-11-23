@@ -12,6 +12,8 @@ Of the 240 projects, 163 use the original clip's measured length and dimensions,
 
 ### Local reference footage
 
+From any extracted gallery project, run `python Get-footage.py` or double-click **Get footage.cmd** on Windows. This requires FFmpeg with ffprobe. It checks the original post and saves available videos in `footage/`. Each attachment gets an editable cut such as `edit-footage-1.json`. Load that file in the shot editor or run `python project.py render --edit edit-footage-1.json`. This works without cloning the repo.
+
 The November 23 download pass saved 167 verified MP4s from 163 posts (2.35 GB decimal). On 59 posts the media exposed no download setting, 12 had no verifiable video belonging to that post and six post pages were unavailable. Availability can change. Original MP4s and the download manifest stay in the local `downloads/x/` folder.
 
 From a clone of this repo with Python and FFmpeg (including ffprobe) on PATH:

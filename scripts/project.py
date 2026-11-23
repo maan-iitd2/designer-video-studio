@@ -86,9 +86,10 @@ def assembled(edit,read_component):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("action",choices=["build","preview","render"],nargs="?",default="build")
+    p.add_argument("--edit",default="edit.json",help="Timeline file in this project.")
     args=p.parse_args()
     root=Path(__file__).resolve().parent
-    edit=json.loads((root/"edit.json").read_text(encoding="utf8"))
+    edit=json.loads((root/args.edit).read_text(encoding="utf8"))
     for key in [edit.get("audio")]+[s.get("media") for s in edit["shots"]]:
         if key:
             asset_url(key)

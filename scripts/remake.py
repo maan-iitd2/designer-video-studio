@@ -59,6 +59,11 @@ pinned HyperFrames CLI and the GSAP animation library. Rendering uses your compu
 In regular Claude chat, attach only edit.json and ask for a revision to the copy or shot order.
 Save the returned JSON in place and preview again.
 
+For the original footage, install FFmpeg (including ffprobe), then run python Get-footage.py or
+double-click Get footage.cmd on Windows. The tool checks the creator's download setting and saves
+available MP4s in footage/. Open edit-footage-1.json in the shot editor or run
+python project.py render --edit edit-footage-1.json to export the original clips on the editable timeline.
+
 The reference field credits the original creator and links to the source. When present,
 creator_workflow is a creator-published resource. The Studio selected the motion components.
 Timing and palette provenance is recorded in basis. A measured cut is an estimate at sampled frames.
@@ -126,6 +131,11 @@ def project_files(edit):
     files.update(assembled(edit,component_source))
     editor=(ROOT/"motion/remake-editor.html").read_text(encoding="utf8")
     files["Edit.html"]=editor.replace("__STUDIO_EDIT__",json.dumps(edit,ensure_ascii=True).replace("<","\\u003c"))
+    scripts=Path(__file__).resolve().parent
+    files["Get-footage.py"]=(scripts/"project_footage.py").read_text(encoding="utf8")
+    for tool in ("download_references.py","analyze_references.py"):
+        files["tools/"+tool]=(scripts/tool).read_text(encoding="utf8")
+    files["Get footage.cmd"]='@echo off\r\ncd /d "%~dp0"\r\npython Get-footage.py\r\npause\r\n'
     files.update({"edit.json":json.dumps(edit,ensure_ascii=False,indent=2)+"\n","README.md":GUIDE,
                   "project.py":Path(__file__).with_name("project.py").read_text(encoding="utf8"),
                   "HyperFrames-LICENSE":(HF/"LICENSE").read_text(encoding="utf8")})
