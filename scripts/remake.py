@@ -80,6 +80,22 @@ def component_source(name):
     return (REGISTRY/name/(name+".html")).read_text(encoding="utf8")
 
 
+def readable_accent(background,accent):
+    def rgb(color):
+        return tuple(int(color[i:i+2],16) for i in (1,3,5))
+    def luminance(channels):
+        linear=[v/3294.6 if v<=10 else ((v/255+.055)/1.055)**2.4 for v in channels]
+        return sum(c*w for c,w in zip(linear,(.2126,.7152,.0722)))
+    surface=luminance(rgb(background))
+    target=0 if surface>.179 else 255
+    original=rgb(accent)
+    for percent in range(0,101,5):
+        color=tuple(round(v+(target-v)*percent/100) for v in original)
+        lum=luminance(color)
+        if (max(lum,surface)+.05)/(min(lum,surface)+.05)>=4.5: break
+    return "#%02x%02x%02x" % color
+
+
 def variables(name, title, tags, i):
     words=title.split()
     short=" ".join(words[:3])
@@ -120,7 +136,7 @@ def make_edit(row,profile):
         end=beats[i+1]["start"] if i+1<len(beats) else duration
         component=plan[i%len(plan)]
         shots.append(dict(seconds=round(end-beat["start"],3),component=component,background=beat["background"],
-            accent=beat["accent"],variables=variables(component,row["title"],row["tags"],i),media=""))
+            accent=readable_accent(beat["background"],beat["accent"]),variables=variables(component,row["title"],row["tags"],i),media=""))
     ref=dict(id=row["id"],creator=row["creator"],post=row["post"],page=row["url"])
     if row.get("skill"): ref["creator_workflow"]=row["skill"]
     return dict(title=row["title"],reference=ref,basis="Measured duration, frame size, estimated cuts and sampled palette" if profile

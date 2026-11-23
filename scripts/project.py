@@ -158,6 +158,7 @@ def main():
         chrome=Path(env.get("PROGRAMFILES","C:/Program Files"))/"Google/Chrome/Application/chrome.exe"
         if chrome.exists(): env.setdefault("HYPERFRAMES_BROWSER_PATH",str(chrome))
     options=["--workers","1","--output",str(root/"film.mp4")] if args.action=="render" else []
+    if os.name=="nt" and args.action=="render": options.append("--no-browser-gpu")
     subprocess.run([npx,"--yes","hyperframes@"+VERSION,args.action,".",*options],cwd=root,env=env,check=True)
 
 
