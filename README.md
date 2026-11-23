@@ -4,11 +4,11 @@
 
 ## Make a film in Claude chat
 
-**Start with an editable project.** Open a reference and choose **Download scene-by-scene rebuild** or **Download style starter**, or [download all 240 projects](https://maan-iitd2.github.io/designer-video-studio/remakes/all-projects.zip) and open `Start.html` after extracting. Each project contains an `Edit.html` shot editor. Change wording, colors, timing or order, add your own media and save over the project's `edit.json`. To get Claude's help with copy, attach just that file to a regular chat and ask for the specific change. A preview or export uses no model tokens.
+Open a creator reference and select **Copy prompt for Claude**. Paste it into a regular chat. The prompt links to that film’s asset list, opening HTML helper, editable timings and downloadable project. Claude asks for your assets and the transition you want, then builds a short pilot for review. For local editing you can also [download the collection](https://maan-iitd2.github.io/designer-video-studio/remakes/all-projects.zip) and open `Start.html`.
 
 For preview and export, install Python 3.9+ and Node.js 22+. In the extracted project run `python project.py preview` or `python project.py render`. On Windows, double-click **Preview.cmd** or **Render.cmd**. Render writes `film.mp4`. The first run fetches the pinned HyperFrames CLI and playback uses GSAP from its CDN.
 
-Stephan Livera’s showreel has a scene-by-scene rebuild with editable typography, generated geometry and an original beat. Its gallery entry includes a preview of the actual exported project. The other 239 downloads are generic style starters. Of those, 162 use measured timing and palettes and 77 use suggested timing. The creator player shows the reference film. Each download retains the creator’s credit and source link.
+Stephan Livera’s showreel has a scene-by-scene rebuild with editable typography, generated geometry and an original beat. Its project includes editable graphics and a synthesized soundtrack. The other 239 downloads are generic style starters. Of those, 162 use measured timing and palettes and 77 use suggested timing. The creator player shows the reference film. Each download retains the creator’s credit and source link.
 
 ### Local reference footage
 
@@ -28,7 +28,9 @@ python films/gonzalomacagno-2de1a9-source/project.py preview
 
 Omit the ID on the downloader to check the whole collection. It checks the post's download setting, verifies MP4s, reuses existing complete files and records results by creator and post. `--source-cut` puts the actual footage into an editable sequence with source trim points. For a post with multiple videos, pass `--media-position 2` to the project generator to use the second video. For an animation built from editable components, run `python scripts/remake.py ID`. To update measured timing and palette profiles after downloading new clips, run `python scripts/analyze_references.py`. Public sharing of an edited film depends on the terms for the footage, music and assets you use.
 
-The [searchable Prompt Motion references](https://maan-iitd2.github.io/designer-video-studio/#references) include 240 films from 219 creator handles in the November 23, 2026 snapshot. Search by subject, creator, visual attributes or tool, then filter by format and prompt or skill. Visible cards loop muted previews. Open a card to play the full reference, turn on sound or adapt its brief. The Pause previews control applies across the gallery, and previews start paused when reduced motion is enabled. [Try paper collage](https://maan-iitd2.github.io/designer-video-studio/?q=paper+collage#references).
+The [searchable Prompt Motion references](https://maan-iitd2.github.io/designer-video-studio/#references) include 240 films from 219 creator handles in the November 23, 2026 snapshot. Search by subject, creator, visual attributes or tool, then filter by visual technique, format and prompt or skill. Visible cards loop muted previews. Open a card to play the full reference, turn on sound or adapt its brief. The Pause previews control applies across the gallery, and previews start paused when reduced motion is enabled. [Try paper collage](https://maan-iitd2.github.io/designer-video-studio/?q=paper+collage#references).
+
+For the four original Studio films:
 
 1. Open a film and choose its format, script mode and subject.
 2. Select **Copy Claude brief**, open Claude and paste it into a new chat. Attach your own photos or sketches. **Save reference frames** gives you three frames to attach if the layout matters.

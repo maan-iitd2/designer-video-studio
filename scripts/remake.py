@@ -182,7 +182,28 @@ def build_gallery(site):
         links=[]
         for row in rows:
             slug=row["id"]
-            files=project_files(make_edit(row,profiles.get(slug)))
+            edit=make_edit(row,profiles.get(slug))
+            files=project_files(edit)
+            resources=out/slug
+            resources.mkdir(exist_ok=True)
+            (resources/"edit.json").write_text(files["edit.json"],encoding="utf8")
+            helpers={}
+            for shot in edit["shots"]:
+                name=shot["component"]
+                if name in helpers: continue
+                path=name+".html.txt" if helpers else "opening.html.txt"
+                (resources/path).write_text(files["components/"+name+".html"],encoding="utf8")
+                helpers[name]=path
+            assets=[]
+            for path,content in files.items():
+                if path.startswith("assets/"):
+                    target=resources/path
+                    target.parent.mkdir(parents=True,exist_ok=True)
+                    target.write_bytes(content)
+                    assets.append(path)
+            manifest=dict(title=row["title"],reference=row["url"],timeline="edit.json",helpers=helpers,
+                          bundled_media=assets,project="../"+slug+".zip",basis=edit["basis"])
+            (resources/"assets.json").write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding="utf8")
             with ZipFile(out/(slug+".zip"),"w",ZIP_DEFLATED) as z:
                 for name in sorted(files):
                     data=files[name] if isinstance(files[name],bytes) else files[name].encode("utf8")

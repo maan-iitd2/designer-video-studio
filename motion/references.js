@@ -1,22 +1,8 @@
 import {watchCard,clearCards,openPlayer,closePlayer} from "./playback.js";
+import {searchable,queryTerms,rank} from "./reference-search.js";
 const $ = id => document.getElementById(id);
 const make = (tag,text="") => Object.assign(document.createElement(tag),{textContent:text});
 const display = s => s.replaceAll("-"," ");
-const norm = s => s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
-const alias = {
-  "product-ui":"app interface software screen ui ux product demo",
-  "kinetic-type":"type typography lettering text title words",
-  "photos":"photography photograph photo photographs images pictures stills",
-  "charts":"data visualization graph statistics numbers",
-  "diagrams":"explainer flowchart flow diagram infographics process",
-  "characters":"character illustration figures",
-  "particles":"particle effects", "music":"music rhythm sound audio",
-  "phone":"phone smartphone mobile device", "shapes":"geometry abstract geometric",
-  "paper collage":"scrapbook cutout cutouts paper collage vox",
-  "editorial":"editorial magazine newspaper engraving vox",
-  "3D":"3d three dimensional", "camera movement":"camera zoom pan parallax dolly",
-  "Landscape":"horizontal wide 16 9", "Portrait":"vertical reel 9 16", "Square":"square 1 1",
-};
 const designs = {
   "paper collage":["one cutout, two paper surfaces and a short heading","Introduce one object with its label. Tear or slide a foreground sheet to expose one detail. Reassemble the layers around the final line."],
   "shape morph":["two related silhouettes and a label for each","Start with one silhouette. Carry a recognisable edge into the second form. Hold on the changed meaning."],
@@ -35,7 +21,7 @@ const designs = {
 };
 const modality = ["paper collage","shape morph","charts","diagrams","product-ui","characters","captions","3D","grid layout","kinetic-type","photos","music","shapes"];
 let entries=[], results=[], shown=0, selected;
-const byId=new Map(), index=new Map(), saved=new Map();
+const byId=new Map(), index=new Map();
 const params=new URLSearchParams(location.search);
 const dialog=$("ref-dialog");
 let returnFocus;
@@ -69,36 +55,33 @@ function fill(){
 }
 function filter(sync=true){
   const query=$("ref-query").value.trim(),fmt=$("ref-format").value,kind=$("ref-kind").value;
-  const terms=norm(query).split(" ").filter(Boolean);
+  const terms=queryTerms(query),look=$("ref-look").value;
   results=entries.flatMap((r,i)=>{
     if((fmt&&r.format!==fmt)||(kind&&!r.kind.includes(kind)))return [];
-    const [title,tags,all]=index.get(r.id);
-    if(!terms.every(w=>all.includes(w)))return [];
-    const score=terms.reduce((s,w)=>s+(title.includes(w)?5:0)+(tags.includes(w)?2:0),0);
+    if(look && !r.tags.includes(look) && !r.techniques.includes(look))return [];
+    const score=rank(index.get(r.id),terms);
+    if(score<0)return [];
     return [{r,score,i}];
   }).sort((a,b)=>b.score-a.score||a.i-b.i).map(x=>x.r);
-  shown=0;clearCards($("ref-list"));$("ref-list").replaceChildren();fill();$("ref-clear").hidden=!(terms.length||fmt||kind);
+  shown=0;clearCards($("ref-list"));$("ref-list").replaceChildren();fill();$("ref-clear").hidden=!(query||fmt||kind||look);
   if(sync){
     const u=new URL(location.href);
-    for(const [key,value] of [["q",query],["format",fmt],["kind",kind]]){if(value)u.searchParams.set(key,value);else u.searchParams.delete(key)}
+    for(const [key,value] of [["q",query],["format",fmt],["kind",kind],["look",look]]){if(value)u.searchParams.set(key,value);else u.searchParams.delete(key)}
     u.hash="references";history.replaceState(null,"",u);
   }
 }
-function adapt(){
-  if(!selected)return;
-  const r=selected;
-  const idea=$("ref-idea").value.trim(),assets=$("ref-assets").value.trim(),format=$("ref-output").value,script=$("ref-script").value;
-  saved.set(r.id,{idea,assets,format,script});
-  const approach=modality.find(k=>r.tags.includes(k)||r.techniques.includes(k))||"general";
-  const [needs,plan]=designs[approach];
-  $("ref-text").value=[
-    "Help me adapt a motion reference in this regular Claude chat. Reference: “"+r.title+"” by @"+r.creator+" on Prompt Motion. "+r.url,
-    "My idea or supplied words: "+(idea||"Ask what the viewer should remember.")+"\nScript choice: "+script+". "+(script==="Use my exact words"?"Preserve my copy verbatim.":script==="Visuals only"?"Use only labels I approve.":"Use the facts I supply."),
-    "Source attributes: "+[r.format,...r.tags.map(display),...(r.stack?[r.stack]:[])].join(", ")+". "+(r.techniques.length?"Indexed technique terms: "+r.techniques.join(", ")+".":""),
-    "My output format: "+(format==="Match reference"?r.format:format)+". My available material: "+(assets||"ask me for the single most important missing asset")+". A useful starting set is "+needs+".",
-    "Proposed storyboard for my own version: "+plan+" This is a suggested treatment. Confirm what I actually liked in the reference; ask for a timestamp or screenshot if you cannot view the clip. Do not claim to have watched it.",
-    "Ask one creative question if the brief is unclear. Otherwise build a 3–5 second editable HTML animation pilot from my own assets and wording. Show the pilot before extending the film. Use the creator’s original prompt or skill only if I choose to provide it; the source page links to it.",
-    "Aim for 9/10 on composition, phone-size typography, originality for my subject and timing. Review a visible frame or cut, give the weakest moment a timestamp, revise it once and compare. Mark any unobserved motion or audio as unverified."
+function claudePrompt(r){
+  const approach=modality.find(k=>r.techniques.includes(k))||modality.find(k=>r.tags.includes(k))||"general";
+  const [needs,beat]=designs[approach];
+  const resources=new URL("remakes/"+encodeURIComponent(r.id)+"/",document.baseURI);
+  const file=name=>new URL(name,resources).href;
+  return [
+    "Help me design an original video using my own material. My motion reference is “"+r.title+"” by @"+r.creator+" ("+r.format+", "+[...r.tags,...r.techniques].map(display).slice(0,6).join(", ")+"). "+r.url,
+    "Available project assets and helper list: "+file("assets.json")+"\nEditable shot timings: "+file("edit.json")+"\nOpening shot’s helper HTML (source text): "+file("opening.html.txt")+"\nProject files if needed: "+new URL("../"+r.id+".zip",resources).href,
+    r.remakeBasis==="rebuilt"?"The project is a studio reconstruction with editable graphics.":"The project is a style starter. Use the reference for visual direction and the helper for implementation.",
+    "Start by asking what the viewer should remember and which assets I already have. For this look, useful inputs include "+needs+". Let me attach rough material, brand colors, copy or a screenshot. Use what I provide and ask before sourcing or generating anything missing.",
+    "Before coding, propose one opening frame using my assets. Ask what should move, where it should land in the next frame, and how fast it should feel. Offer two concrete motion choices if I’m unsure. A possible direction: "+beat,
+    "After I choose, adapt one helper for a 3–5 second pilot. Read only the files needed for that shot. If a link is unavailable in chat, ask for the relevant file or reference frame. Once I approve the motion, extend the existing timeline. For revisions, change only the affected shot."
   ].join("\n\n");
 }
 function openReference(r){
@@ -117,20 +100,7 @@ function openReference(r){
   if(r.stream?.sourcePost)links.push(link("Video by @"+new URL(r.stream.sourcePost).pathname.split("/")[1]+" ↗",r.stream.sourcePost));
   if(r.skill)links.push(link("Skill repository ↗",r.skill));
   $("ref-links").replaceChildren(...links);
-  $("edit-copy-status").hidden=true;
-  $("ref-remake").href="remakes/"+encodeURIComponent(r.id)+".zip";
-  $("ref-remake").download=r.id+".zip";
-  const rebuilt=r.remakeBasis==="rebuilt";
-  $("ref-remake").textContent=rebuilt?"Download scene-by-scene rebuild ↓":"Download style starter ↓";
-  $("ref-basis").textContent=rebuilt
-    ?"The studio rebuilt the visible sequence with editable graphics and a new soundtrack."
-    :r.remakeBasis==="measured"?"Generic motion components use sampled colors and estimated cuts. The creator’s artwork appears in the reference player above."
-    :"Generic motion components use timing and colors suggested by the catalog tags.";
-  const sample=$("ref-render-preview");sample.hidden=!rebuilt;
-  if(rebuilt)sample.href="previews/"+encodeURIComponent(r.id)+"-rebuild.mp4";else sample.removeAttribute("href");
-  const draft=saved.get(r.id)||{idea:"",assets:"",format:"Match reference",script:"Shape my notes"};
-  $("ref-idea").value=draft.idea;$("ref-assets").value=draft.assets;$("ref-output").value=draft.format;$("ref-script").value=draft.script;
-  $("ref-brief-details").open=false;$("ref-status").textContent="";adapt();
+  $("ref-copy-status").textContent="";$("ref-manual").hidden=true;
   if(!dialog.open)dialog.showModal();dialog.scrollTop=0;
 }
 function route(){
@@ -145,39 +115,39 @@ dialog.addEventListener("close",()=>{
   if(returnFocus?.isConnected)returnFocus.focus();else if(location.hash==="#references")$("ref-query").focus({preventScroll:true});
 });
 $("ref-close").addEventListener("click",()=>dialog.close());
-$("copy-edit-request").addEventListener("click",async()=>{
-  const idea=$("ref-idea").value.trim(),assets=$("ref-assets").value.trim();
-  const prompt=["Help me edit the attached HyperFrames edit.json for "+selected.title+".",
-    idea?"My idea or words: "+idea:"Ask me what this video is for and what words or assets I already have.",
-    assets?"My assets: "+assets:"",
-    "Script preference: "+$("ref-script").value+". Format preference: "+$("ref-output").value+".",
-    "Work within this project's included components. Change only the fields needed for my request. Preserve credits, provenance and the JSON structure. Use my supplied facts and filenames. Return the revised edit.json for my local renderer."].filter(Boolean).join("\n");
-  const status=$("edit-copy-status");status.hidden=false;
-  try{await navigator.clipboard.writeText(prompt);status.textContent="Copied. Attach edit.json and paste the request into Claude."}
-  catch{status.textContent=prompt}
-});
 $("ref-copy").addEventListener("click",async()=>{
-  adapt();const field=$("ref-text");
-  try{await navigator.clipboard.writeText(field.value);$("ref-status").textContent="Copied. Paste into Claude and attach your own material."}
-  catch{$("ref-brief-details").open=true;field.focus();field.select();$("ref-status").textContent="Brief selected. Use your device’s Copy command."}
+  const row=selected;if(!row)return;
+  const prompt=claudePrompt(row);
+  try{
+    await navigator.clipboard.writeText(prompt);
+    if(selected===row)$("ref-copy-status").textContent="Copied. Paste into a Claude chat.";
+  }catch{
+    if(selected!==row)return;
+    const field=$("ref-manual");field.value=prompt;field.hidden=false;field.focus();field.select();
+    $("ref-copy-status").textContent="Prompt selected. Use your device’s Copy command.";
+  }
 });
-$("ref-brief").addEventListener("input",()=>{adapt();$("ref-status").textContent=""});
-$("ref-brief").addEventListener("submit",e=>e.preventDefault());
 document.querySelector(".ref-search").addEventListener("submit",e=>e.preventDefault());
 $("ref-more").addEventListener("click",fill);
 $("ref-clear").addEventListener("click",()=>{document.querySelector(".ref-search").reset();filter();$("ref-query").focus()});
-for(const id of ["ref-query","ref-format","ref-kind"])$(id).addEventListener("input",()=>filter());
+for(const id of ["ref-query","ref-format","ref-kind","ref-look"])$(id).addEventListener("input",()=>filter());
 window.addEventListener("hashchange",route);
 try{
   const res=await fetch("reference-index.json");if(!res.ok)throw Error();
   entries=(await res.json()).entries;
   for(const r of entries){
     byId.set(r.id,r);
-    const tags=[...r.tags,...r.techniques,r.format], title=norm(r.title+" "+r.creator), labels=norm(tags.join(" "));
-    index.set(r.id,[title,labels,norm([title,labels,...tags.map(t=>alias[t]||""),...r.kind,r.model||"",r.stack||""].join(" "))]);
+    index.set(r.id,searchable(r));
+  }
+  for(const [label,key] of [["Visual elements","tags"],["Techniques","techniques"]]){
+    const group=make("optgroup");group.label=label;
+    for(const value of [...new Set(entries.flatMap(r=>r[key]))].sort()){
+      const opt=make("option",display(value));opt.value=value;group.append(opt);
+    }
+    $("ref-look").append(group);
   }
   $("ref-query").value=params.get("q")||"";
-  for(const [key,id] of [["format","ref-format"],["kind","ref-kind"]]){
+  for(const [key,id] of [["format","ref-format"],["kind","ref-kind"],["look","ref-look"]]){
     const val=params.get(key);if([...$(id).options].some(x=>x.value===val))$(id).value=val;
   }
   filter(false);route();

@@ -34,7 +34,7 @@ for line in (library / "catalog.jsonl").read_text(encoding="utf-8").splitlines()
 
 motion = root / "motion"
 build_gallery(site)
-for name in ("index.html", "motion.css", "motion.js", "playback.js", "films.json", "reference-index.json", "references.js", "references.css"):
+for name in ("index.html", "motion.css", "motion.js", "playback.js", "films.json", "reference-index.json", "references.js", "reference-search.js", "references.css"):
     shutil.copyfile(motion / name, site / name)
 index = json.loads((motion / "reference-index.json").read_text(encoding="utf8"))
 measured = json.loads((motion / "remake-profiles.json").read_text(encoding="utf8"))

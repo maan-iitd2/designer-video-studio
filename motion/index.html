@@ -17,6 +17,7 @@
 <div class="mast"><h1>Motion <em>Index</em></h1><a href="remakes/all-projects.zip" download>Download collection ↓</a></div>
 <form class="ref-search" role="search" aria-label="Search creator references">
 <label>Find a film<input id="ref-query" type="search" placeholder="Try paper collage, kinetic type, or a creator…" autocomplete="off"></label>
+<label>Look or technique<select id="ref-look"><option value="">All looks</option></select></label>
 <label>Format<select id="ref-format"><option value="">All formats</option><option>Landscape</option><option>Portrait</option><option>Square</option></select></label>
 <label>Resource<select id="ref-kind"><option value="">Prompts &amp; skills</option><option value="prompt">Prompt</option><option value="skill">Skill</option></select></label>
 </form>
@@ -54,17 +55,11 @@
 </section></div></dialog>
 <dialog id="ref-dialog" aria-labelledby="ref-title">
 <div class="dialog-top"><span class="brand small">Creator reference</span><button id="ref-close" class="close" type="button">Close ×</button></div>
-<div class="split"><section class="film-side"><div id="ref-view"></div>
-<div class="film-copy"><p id="ref-by" class="meta"></p><h2 id="ref-title"></h2><p id="ref-facts"></p><p id="ref-tech"></p><nav id="ref-links" aria-label="Original sources"></nav></div></section>
-<section class="brief"><h3>Adapt this film</h3><p class="intro">Start from a visual technique and make a pilot with your own material.</p>
-<section class="ref-project"><a id="ref-remake" class="primary" download>Download project ↓</a> <a id="ref-render-preview" hidden target="_blank" rel="noopener">Watch the project render ↗</a> <button id="copy-edit-request" type="button">Copy Claude edit request</button><p><span id="ref-basis"></span> Unzip and open <b>Edit.html</b> to change the shots. For help with words or shot order, attach just <b>edit.json</b> to Claude.</p><p>Want the original clip? The included <b>Get-footage.py</b> downloads available footage and prepares a cut you can edit.</p><p id="edit-copy-status" role="status" hidden></p></section>
-<form id="ref-brief"><label>Your idea or exact words<textarea id="ref-idea" rows="3" placeholder="What are you making?"></textarea></label>
-<label>Material you have<input id="ref-assets" placeholder="Photos, sketches, a screen recording…"></label>
-<div class="pair"><label>Output format<select id="ref-output"><option>Match reference</option><option>Portrait · 9:16</option><option>Landscape · 16:9</option><option>Square · 1:1</option></select></label>
-<label>Script<select id="ref-script"><option>Shape my notes</option><option>Use my exact words</option><option>Write a draft</option><option>Visuals only</option></select></label></div>
-<details id="ref-brief-details"><summary>Read the adaptation brief</summary><textarea readonly id="ref-text" aria-label="Claude adaptation brief" rows="9"></textarea></details>
-<div class="actions"><button type="button" class="primary" id="ref-copy">Copy Claude brief</button><a href="https://claude.ai/new" class="secondary" target="_blank" rel="noopener">Open Claude ↗</a></div><p id="ref-status" role="status"></p></form>
-</section></div></dialog>
+<div id="ref-view"></div>
+<section class="film-copy ref-caption"><div><p id="ref-by" class="meta"></p><h2 id="ref-title"></h2></div>
+<div class="prompt-action"><button id="ref-copy" type="button" class="primary">Copy prompt for Claude</button><p id="ref-copy-status" role="status"></p></div>
+<textarea id="ref-manual" aria-label="Prompt to copy" rows="6" readonly hidden></textarea>
+<div class="ref-attribution"><p id="ref-facts"></p><p id="ref-tech"></p><nav id="ref-links" aria-label="Original sources"></nav></div></section></dialog>
 <script type="module" src="motion.js"></script>
 <script type="module" src="references.js"></script>
 </body></html>
