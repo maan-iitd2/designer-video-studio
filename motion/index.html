@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
 <meta name="theme-color" content="#f8f7f2"><meta name="description" content="Watch original motion studies, choose a visual direction and adapt a film in a regular Claude chat.">
 <title>Motion Index · Designer Video Studio</title>
 <link rel="stylesheet" href="motion.css">
@@ -10,24 +11,24 @@
 <body>
 <header class="top"><div class="wrap top-inner">
 <a class="brand" href="./"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Designer Video Studio</a>
-<nav aria-label="Navigation"><a href="#references">Creator references</a><a href="archive/">Shot archive ↗</a></nav></div></header>
+<nav aria-label="Navigation"><a href="#studies">Studio films</a><a href="archive/">Shot archive ↗</a></nav></div></header>
 <main class="wrap">
-<section class="mast"><h1>Motion <em>Index</em></h1><p>A library of short films to remake in Claude.<br>Pick a look and bring your own story.</p></section>
-<section aria-label="Original motion studies">
-<div class="bar"><div id="filters" role="group" aria-label="Filter films"></div><button type="button" class="motion-option" id="motion-toggle" aria-pressed="true">Hover previews on</button></div>
-<div id="films" class="films" aria-live="polite"></div>
-<noscript>Enable JavaScript to play the films and customize their prompts.</noscript>
-</section>
-<section id="references" class="refs">
-<div class="ref-intro"><h2>Creator <em>references</em></h2><p>Watch a reference and download its editable motion project. <a href="remakes/all-projects.zip" download>Download all 240 projects ↓</a></p></div>
+<section id="references" aria-label="Creator references">
+<div class="mast"><h1>Motion <em>Index</em></h1><a href="remakes/all-projects.zip" download>Download collection ↓</a></div>
 <form class="ref-search" role="search" aria-label="Search creator references">
 <label>Find a film<input id="ref-query" type="search" placeholder="Try paper collage, kinetic type, or a creator…" autocomplete="off"></label>
 <label>Format<select id="ref-format"><option value="">All formats</option><option>Landscape</option><option>Portrait</option><option>Square</option></select></label>
 <label>Resource<select id="ref-kind"><option value="">Prompts &amp; skills</option><option value="prompt">Prompt</option><option value="skill">Skill</option></select></label>
 </form>
-<div class="ref-results"><p id="ref-count" role="status">Loading references…</p><button type="button" id="ref-clear" hidden>Clear filters</button></div>
+<div class="ref-results"><p id="ref-count" role="status">Loading references…</p><button type="button" id="ref-clear" hidden>Clear filters</button><button type="button" data-motion-control>Pause previews</button></div>
 <div id="ref-list" class="ref-grid" aria-label="Search results"></div>
 <button id="ref-more" type="button" class="secondary" hidden>Show more references</button>
+</section>
+<section id="studies" aria-label="Original motion studies">
+<h2>Studio films</h2>
+<div class="bar"><div id="filters" role="group" aria-label="Filter films"></div><button type="button" data-motion-control>Pause previews</button></div>
+<div id="films" class="films" aria-live="polite"></div>
+<noscript>Enable JavaScript to play the films and customize their prompts.</noscript>
 </section>
 </main>
 <footer class="wrap"><span>Designer Video Studio</span><a href="https://github.com/maan-iitd2/designer-video-studio#tools-and-sources">Source files &amp; tools ↗</a></footer>
@@ -64,6 +65,6 @@
 <details id="ref-brief-details"><summary>Read the adaptation brief</summary><textarea readonly id="ref-text" aria-label="Claude adaptation brief" rows="9"></textarea></details>
 <div class="actions"><button type="button" class="primary" id="ref-copy">Copy Claude brief</button><a href="https://claude.ai/new" class="secondary" target="_blank" rel="noopener">Open Claude ↗</a></div><p id="ref-status" role="status"></p></form>
 </section></div></dialog>
-<script src="motion.js" defer></script>
+<script type="module" src="motion.js"></script>
 <script type="module" src="references.js"></script>
 </body></html>

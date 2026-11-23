@@ -6,3 +6,24 @@
 .ref-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;align-items:start;gap:5px;padding:clamp(10px,1.7vw,25px);background:#e4dbcf;color:#493928;overflow:hidden}.ref-placeholder[data-tint="1"]{background:#d8e1dc;color:#203f3a}.ref-placeholder[data-tint="2"]{background:#e4dcd7;color:#603a35}.ref-placeholder[data-tint="3"]{background:#dcdfe9;color:#384461}.ref-placeholder small{font:500 .73rem system-ui;color:inherit;margin:0}.ref-placeholder em{font:italic clamp(1.1rem,2.25vw,2.3rem)/1 Georgia,serif;letter-spacing:-.045em;max-width:94%;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.ref-thumb img,.ref-cover img{position:absolute;inset:0;opacity:0}.ref-thumb img.ready,.ref-cover img.ready{opacity:1}.ref-cover button{position:relative}
 
 .ref-project a[hidden]{display:none}
+
+#references{padding-bottom:3rem}
+#references .mast{padding-block:clamp(24px,3vw,44px)}
+.mast>a,[data-motion-control]{font-size:.86rem;white-space:nowrap}
+.ref-grid{gap:26px clamp(10px,1.3vw,20px)}
+.ref-card strong{font:600 clamp(1rem,1.25vw,1.24rem)/1.24 Inter,"Segoe UI",sans-serif;letter-spacing:-.035em;margin:9px 0 2px}
+.ref-thumb video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#141515;opacity:0}
+.ref-thumb.playing video{opacity:1}
+.ref-results #ref-clear{margin-right:auto}
+.ref-results{gap:12px}
+[data-motion-control]{display:inline-flex;align-items:center;gap:.45em}
+[data-motion-control]::before{content:"";width:.38em;height:.66em;border-inline:2px solid}
+[data-motion-control][aria-pressed=false]::before{width:0;height:0;border:solid transparent;border-width:.34em 0 .34em .54em;border-left-color:currentColor}
+#ref-view{background:#101112;color:white;display:grid;place-items:center}
+#ref-view video{display:block;width:100%;max-height:64dvh;object-fit:contain}
+#ref-view video[hidden]{display:none}
+#ref-view p{padding:30px 12px}
+#studies{margin:40px 0 65px;scroll-margin:16px}
+#studies h2{font:500 clamp(2.3rem,4vw,4rem)/1.1 Georgia,serif;letter-spacing:-.055em;margin:0 0 18px}
+@media(max-width:740px){.mast{display:flex;align-items:flex-end;flex-wrap:wrap;gap:10px}.mast>a{font-size:.79rem}}
+@media(max-width:500px){.ref-grid{grid-template-columns:1fr;gap:20px}.ref-card strong{font-size:1.15rem}.top nav a:last-child{display:inline}}

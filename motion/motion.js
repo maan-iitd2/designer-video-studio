@@ -1,4 +1,4 @@
-"use strict";
+import {watchCard,clearCards,previewsEnabled} from "./playback.js";
 const $ = id => document.getElementById(id);
 const el = (name, text) => Object.assign(document.createElement(name), {textContent:text || ""});
 const dialog = $("editor");
@@ -8,29 +8,16 @@ let active;
 let activeSource = "";
 let group = "All films";
 let lastButton;
-let hoverEnabled = !matchMedia("(prefers-reduced-motion: reduce)").matches;
 const sources = new Map();
 function webLink(title,href){
   const a=el("a",title);a.href=href;a.target="_blank";a.rel="noopener";return a;
 }
 function previewPath(study,suffix){return "previews/"+study.id+suffix}
-function stopHover(card){
-  card.classList.remove("playing");
-  const video=card.querySelector("video");
-  if(video){video.pause();video.removeAttribute("src");video.load();video.remove()}
-}
-function stopAll(){document.querySelectorAll(".screen").forEach(stopHover)}
 function makeCard(study){
   const card=el("button");card.type="button";card.className="film";card.setAttribute("aria-label","Watch and adapt "+study.title);
   const media=el("span");media.className="screen";
   const poster=el("img");poster.src=previewPath(study,".webp");poster.alt="";poster.width=960;poster.height=540;
-  const play=el("span","▶");play.className="watch";play.setAttribute("aria-hidden","true");media.append(poster,play);
-  card.addEventListener("pointerenter",async event=>{
-    if(!hoverEnabled || event.pointerType!=="mouse" || dialog.open || media.querySelector("video"))return;
-    const v=el("video");v.muted=true;v.playsInline=true;v.loop=true;v.src=previewPath(study,".mp4");media.insertBefore(v,play);
-    try{await v.play();if(v.isConnected)media.classList.add("playing")}catch{if(v.isConnected)stopHover(media)}
-  });
-  card.addEventListener("pointerleave",()=>stopHover(media));
+  media.append(poster);watchCard(media,[previewPath(study,".mp4")]);
   card.addEventListener("click",()=>{lastButton=card;location.hash=study.id});
   const row=el("span");row.className="meta-row";
   const title=el("span",study.title);title.className="card-title";
@@ -38,11 +25,9 @@ function makeCard(study){
   const genre=el("span",study.genre);genre.className="card-genre";card.append(media,row,genre);return card;
 }
 function renderCards(){
-  stopAll();$("films").replaceChildren(...studies.filter(s=>group==="All films"||s.genre===group).map(makeCard));
+  clearCards($("films"));$("films").replaceChildren(...studies.filter(s=>group==="All films"||s.genre===group).map(makeCard));
   for(const b of $("filters").children)b.setAttribute("aria-pressed",String(b.textContent===group));
 }
-function updateMotion(){const b=$("motion-toggle");b.textContent=hoverEnabled?"Hover previews on":"Hover previews off";b.setAttribute("aria-pressed",String(hoverEnabled))}
-$("motion-toggle").addEventListener("click",()=>{hoverEnabled=!hoverEnabled;stopAll();updateMotion()});
 function inputs(){return Object.fromEntries(["idea","format","script","words","assets"].map(id=>[id,$(id).value]))}
 function updateBrief(){
   if(!active)return;
@@ -71,7 +56,7 @@ function updateBrief(){
 }
 async function openFilm(study){
   if(dialog.open && active===study)return;
-  active=study;activeSource="";stopAll();
+  active=study;activeSource="";
   $("film-title").textContent=study.title;
   $("film-meta").textContent=study.genre+"  /  8s  /  "+(study.id==="offbeat"?"Original beat · unmute to hear":"Silent film");
   $("summary").textContent=study.blurb;
@@ -85,7 +70,7 @@ async function openFilm(study){
   $("assets").placeholder=study.inputs;$("status").textContent="";$("copy").disabled=true;updateBrief();
   if(!dialog.open)dialog.showModal();
   dialog.scrollTop=0;
-  if(!matchMedia("(prefers-reduced-motion: reduce)").matches)player.play().catch(()=>{});
+  if(previewsEnabled()&&!document.hidden)player.play().catch(()=>{});
   try{
     if(!sources.has(study.id)){
       const res=await fetch(previewPath(study,"-motion.txt"));if(!res.ok)throw Error();
@@ -133,13 +118,13 @@ $("copy").addEventListener("click",async()=>{
   catch{$("prompt-disclosure").open=true;$("brief-preview").focus();$("brief-preview").select();$("status").textContent="Brief selected. Use your device’s Copy command."}
 });
 window.addEventListener("hashchange",fromHash);
-document.addEventListener("visibilitychange",()=>{if(document.hidden){stopAll();$("player").pause()}});
+document.addEventListener("visibilitychange",()=>{if(document.hidden)$("player").pause()});
 async function start(){
   const res=await fetch("films.json");if(!res.ok)throw Error();studies=await res.json();
   for(const genre of ["All films",...new Set(studies.map(s=>s.genre))]){
     const b=el("button",genre);b.type="button";b.className="chip";
     b.addEventListener("click",()=>{group=genre;renderCards()});$("filters").append(b);
   }
-  updateMotion();renderCards();fromHash();
+  renderCards();fromHash();
 }
 start().catch(()=>{$("films").textContent="The film index could not load. Refresh to try again."});

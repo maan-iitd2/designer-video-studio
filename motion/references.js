@@ -1,3 +1,4 @@
+import {watchCard,clearCards,openPlayer,closePlayer} from "./playback.js";
 const $ = id => document.getElementById(id);
 const make = (tag,text="") => Object.assign(document.createElement(tag),{textContent:text});
 const display = s => s.replaceAll("-"," ");
@@ -46,15 +47,17 @@ function imageBox(row,tag,klass){
   fallback.append(make("small","@"+row.creator),make("em",row.title));
   box.append(fallback);
   if(row.thumbnail){
-    const img=make("img");img.src=row.thumbnail;img.loading="lazy";img.alt="";img.referrerPolicy="no-referrer";
+    const img=make("img");img.loading="lazy";img.alt="";img.referrerPolicy="no-referrer";
     img.addEventListener("load",()=>img.classList.add("ready"),{once:true});
-    img.addEventListener("error",()=>img.remove(),{once:true});box.append(img);
+    img.addEventListener("error",()=>{if(img.src!==row.thumbnail)img.src=row.thumbnail;else img.remove()});
+    img.src=row.stream?.poster||row.thumbnail;box.append(img);
   }
   return box;
 }
 function card(row){
   const a=make("a");a.href="#ref="+row.id;a.className="ref-card";
-  const thumb=imageBox(row,"div","ref-thumb");thumb.append(make("span",row.format));
+  const thumb=imageBox(row,"div","ref-thumb");
+  watchCard(thumb,[row.stream?.preview,row.preview]);
   const labels=row.tags.length?row.tags.slice(0,2).map(display):row.kind;
   a.append(thumb,make("strong",row.title),make("small","@"+row.creator+" · "+labels.join(" / ")));
   a.addEventListener("click",()=>{returnFocus=a});return a;
@@ -74,7 +77,7 @@ function filter(sync=true){
     const score=terms.reduce((s,w)=>s+(title.includes(w)?5:0)+(tags.includes(w)?2:0),0);
     return [{r,score,i}];
   }).sort((a,b)=>b.score-a.score||a.i-b.i).map(x=>x.r);
-  shown=0;$("ref-list").replaceChildren();fill();$("ref-clear").hidden=!(terms.length||fmt||kind);
+  shown=0;clearCards($("ref-list"));$("ref-list").replaceChildren();fill();$("ref-clear").hidden=!(terms.length||fmt||kind);
   if(sync){
     const u=new URL(location.href);
     for(const [key,value] of [["q",query],["format",fmt],["kind",kind]]){if(value)u.searchParams.set(key,value);else u.searchParams.delete(key)}
@@ -105,17 +108,13 @@ function openReference(r){
   $("ref-facts").textContent=[r.format,...r.tags.map(display),r.stack,r.model].filter(Boolean).join(" · ");
   $("ref-tech").textContent=r.techniques.length?"Indexed techniques: "+r.techniques.join(", ")+".":"";
   const holder=$("ref-view");holder.replaceChildren();
-  const cover=imageBox(r,"div","ref-cover"),watch=make("button","▶ Watch here");watch.type="button";cover.append(watch);holder.append(cover);
-  watch.addEventListener("click",()=>{
-    const postID=r.post?.match(/\/status\/(\d+)/)?.[1];
-    const frame=make("iframe");frame.title=r.title+" · creator’s original post";
-    frame.src=postID?"https://platform.twitter.com/embed/Tweet.html?id="+postID+"&dnt=true&theme=light":r.url;
-    frame.allow="autoplay; encrypted-media; fullscreen; picture-in-picture";frame.allowFullscreen=true;frame.referrerPolicy="strict-origin-when-cross-origin";
-    const fallback=make("p");fallback.className="fallback";fallback.append(link("Watch on Prompt Motion ↗",r.url));
-    holder.replaceChildren(frame,fallback);
-  },{once:true});
+  openPlayer(holder,[r.stream?.video,r.video],r.stream?.poster||r.thumbnail,()=>{
+    const fallback=make("p","Video unavailable here. ");fallback.append(link("Open on Prompt Motion ↗",r.url));
+    holder.replaceChildren(fallback);
+  });
   const links=[link("Original "+r.kind.join(" & ")+" ↗",r.url)];
   if(r.post)links.push(link("Creator’s post ↗",r.post));
+  if(r.stream?.sourcePost)links.push(link("Video by @"+new URL(r.stream.sourcePost).pathname.split("/")[1]+" ↗",r.stream.sourcePost));
   if(r.skill)links.push(link("Skill repository ↗",r.skill));
   $("ref-links").replaceChildren(...links);
   $("edit-copy-status").hidden=true;
@@ -139,6 +138,7 @@ function route(){
   if(byId.has(id))openReference(byId.get(id));else if(dialog.open)dialog.close();
 }
 dialog.addEventListener("close",()=>{
+  closePlayer();
   $("ref-view").replaceChildren();
   if(selected&&location.hash==="#ref="+selected.id){const u=new URL(location.href);u.hash="references";history.replaceState(null,"",u)}
   selected=null;

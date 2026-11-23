@@ -9,6 +9,8 @@ import time
 import urllib.error
 import urllib.request
 import urllib.robotparser
+import http.client
+from download_references import public_media, retry
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
@@ -120,9 +122,23 @@ def make_entry(card, rules):
     return result
 
 
+def streaming_media(post):
+    try:
+        media=retry(lambda: public_media(post))
+        if media: return media
+    except (OSError,EOFError,http.client.HTTPException):
+        pass
+    post_id=post.rsplit("/",1)[-1]
+    if not post_id.isdecimal(): return []
+    embedded=json.loads(fetch("https://cdn.syndication.twimg.com/tweet-result?id="+post_id+"&lang=en&token=x"))
+    if embedded.get("id_str")!=post_id: return []
+    return embedded.get("mediaDetails") or embedded.get("quoted_tweet",{}).get("mediaDetails",[])
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--refresh",action="store_true",help="Re-read metadata for previously indexed entries.")
+    parser.add_argument("--refresh-playback",action="store_true",help="Refresh published streaming variants and posters for existing posts.")
     args=parser.parse_args()
     rules=urllib.robotparser.RobotFileParser()
     rules.parse(fetch(HOME+"robots.txt").splitlines())
@@ -138,6 +154,35 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
         for item in pool.map(lambda c:make_entry(c,rules),missing):
             cache[item["id"]]=item
+    for card in cards:
+        entry=cache[card["slug"]]
+        for field in ("preview","video"):
+            url=card.get(field,"")
+            if urlparse(url).hostname=="media.prompt-motion.com":
+                entry[field]=url
+    def refresh_stream(entry):
+        try:
+            media=streaming_media(entry["post"])
+        except (ValueError,OSError,EOFError,http.client.HTTPException):
+            return
+        entry.pop("stream",None)
+        for item in media:
+            variants=sorted((v for v in item.get("video_info",{}).get("variants",[])
+                             if v.get("content_type")=="video/mp4" and urlparse(v.get("url","")).hostname=="video.twimg.com"),
+                            key=lambda v:v.get("bitrate",0))
+            if not variants: continue
+            small=next((v for v in variants if v.get("bitrate",0)>=350000),variants[-1])
+            large=next((v for v in variants if v.get("bitrate",0)>=2000000),variants[-1])
+            entry["stream"]={"preview":small["url"],"video":large["url"]}
+            origin=item.get("expanded_url","").split("/video/")[0]
+            if re.fullmatch(r"https://(?:x|twitter)\.com/[\w]+/status/\d+",origin) and origin.split("/")[-1]!=entry["post"].split("/")[-1]:
+                entry["stream"]["sourcePost"]=origin
+            poster=item.get("media_url_https","")
+            if urlparse(poster).hostname=="pbs.twimg.com":entry["stream"]["poster"]=poster
+            break
+    targets=cache.values() if args.refresh_playback else [item for item in cache.values() if "stream" not in item]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        list(pool.map(refresh_stream,targets))
     data={"source":HOME,"checked":datetime.date.today().isoformat(),"entries":[cache[i] for i in ids]}
     tmp=OUTPUT.with_suffix(".tmp")
     tmp.write_text(json.dumps(data,ensure_ascii=False,indent=1)+"\n",encoding="utf-8")
