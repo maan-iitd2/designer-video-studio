@@ -121,9 +121,14 @@ function openReference(r){
   $("edit-copy-status").hidden=true;
   $("ref-remake").href="remakes/"+encodeURIComponent(r.id)+".zip";
   $("ref-remake").download=r.id+".zip";
-  $("ref-basis").textContent=r.remakeBasis==="measured"
-    ?"Uses the clip’s measured length, sampled colors and estimated cuts."
-    :"Uses suggested timing and colors from the indexed style.";
+  const rebuilt=r.remakeBasis==="rebuilt";
+  $("ref-remake").textContent=rebuilt?"Download scene-by-scene rebuild ↓":"Download style starter ↓";
+  $("ref-basis").textContent=rebuilt
+    ?"The studio rebuilt the visible sequence with editable graphics and a new soundtrack."
+    :r.remakeBasis==="measured"?"Generic motion components use sampled colors and estimated cuts. The creator’s artwork appears in the reference player above."
+    :"Generic motion components use timing and colors suggested by the catalog tags.";
+  const sample=$("ref-render-preview");sample.hidden=!rebuilt;
+  if(rebuilt)sample.href="previews/"+encodeURIComponent(r.id)+"-rebuild.mp4";else sample.removeAttribute("href");
   const draft=saved.get(r.id)||{idea:"",assets:"",format:"Match reference",script:"Shape my notes"};
   $("ref-idea").value=draft.idea;$("ref-assets").value=draft.assets;$("ref-output").value=draft.format;$("ref-script").value=draft.script;
   $("ref-brief-details").open=false;$("ref-status").textContent="";adapt();

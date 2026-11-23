@@ -4,11 +4,11 @@
 
 ## Make a film in Claude chat
 
-**Start with an editable project.** Open a reference and choose **Download editable HyperFrames project**, or [download all 240 projects](https://maan-iitd2.github.io/designer-video-studio/remakes/all-projects.zip) and open `Start.html` after extracting. Each project contains an `Edit.html` shot editor. Change wording, colors, timing or order, add your own media and save over the project's `edit.json`. To get Claude's help with copy, attach just that file to a regular chat and ask for the specific change. A preview or export uses no model tokens.
+**Start with an editable project.** Open a reference and choose **Download scene-by-scene rebuild** or **Download style starter**, or [download all 240 projects](https://maan-iitd2.github.io/designer-video-studio/remakes/all-projects.zip) and open `Start.html` after extracting. Each project contains an `Edit.html` shot editor. Change wording, colors, timing or order, add your own media and save over the project's `edit.json`. To get Claude's help with copy, attach just that file to a regular chat and ask for the specific change. A preview or export uses no model tokens.
 
 For preview and export, install Python 3.9+ and Node.js 22+. In the extracted project run `python project.py preview` or `python project.py render`. On Windows, double-click **Preview.cmd** or **Render.cmd**. Render writes `film.mp4`. The first run fetches the pinned HyperFrames CLI and playback uses GSAP from its CDN.
 
-Of the 240 projects, 163 use the original clip's measured length and dimensions, estimated cut points and sampled colors. The other 77 start with an editable nine-second treatment based on catalog attributes. Studio selects motion components for both groups. Creator source links are in each project. Illustrations, charts and text in the starter are editable examples. Exact source footage can also be assembled locally.
+Stephan Livera’s showreel has a scene-by-scene rebuild with editable typography, generated geometry and an original beat. Its gallery entry includes a preview of the actual exported project. The other 239 downloads are generic style starters. Of those, 162 use measured timing and palettes and 77 use suggested timing. The creator player shows the reference film. Each download retains the creator’s credit and source link.
 
 ### Local reference footage
 

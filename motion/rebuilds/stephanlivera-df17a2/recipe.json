@@ -1,0 +1,175 @@
+{
+  "basis": "Studio-authored reconstruction from the reference frames, with a new synthesized soundtrack",
+  "audio": "assets/studio-beat.wav",
+  "width": 1920,
+  "height": 1080,
+  "shots": [
+    {
+      "label": "Signal",
+      "component": "showreel-study",
+      "seconds": 2.017,
+      "background": "#0f0f11",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Signal",
+        "ink": "#f2efe7"
+      },
+      "media": ""
+    },
+    {
+      "label": "Wordmark",
+      "component": "showreel-study",
+      "seconds": 1.516,
+      "background": "#f04b3a",
+      "accent": "#f2efe7",
+      "variables": {
+        "scene": "Wordmark",
+        "ink": "#0f0f11",
+        "text": "CLAUDE",
+        "caption": "motion designer"
+      },
+      "media": ""
+    },
+    {
+      "label": "Easing chart",
+      "component": "showreel-study",
+      "seconds": 2.1,
+      "background": "#f2efe7",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Easing chart",
+        "ink": "#0f0f11",
+        "text": "Six ways to get from A to B."
+      },
+      "media": ""
+    },
+    {
+      "label": "Shape morph",
+      "component": "showreel-study",
+      "seconds": 1.867,
+      "background": "#302ff7",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Shape morph",
+        "ink": "#f2efe7"
+      },
+      "media": ""
+    },
+    {
+      "label": "Truchet tiles",
+      "component": "showreel-study",
+      "seconds": 2.233,
+      "background": "#0f0f11",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Truchet tiles",
+        "ink": "#f2efe7"
+      },
+      "media": ""
+    },
+    {
+      "label": "Point cloud",
+      "component": "showreel-study",
+      "seconds": 1.517,
+      "background": "#0f0f11",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Point cloud",
+        "ink": "#f2efe7"
+      },
+      "media": ""
+    },
+    {
+      "label": "Wide type",
+      "component": "showreel-study",
+      "seconds": 0.233,
+      "background": "#f04b3a",
+      "accent": "#f2efe7",
+      "variables": {
+        "scene": "Wide type",
+        "ink": "#0f0f11",
+        "text": "EASE"
+      },
+      "media": ""
+    },
+    {
+      "label": "Punch in",
+      "component": "showreel-study",
+      "seconds": 0.234,
+      "background": "#0f0f11",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Punch in",
+        "ink": "#f2efe7",
+        "text": "IN."
+      },
+      "media": ""
+    },
+    {
+      "label": "Condensed type",
+      "component": "showreel-study",
+      "seconds": 0.233,
+      "background": "#f2efe7",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Condensed type",
+        "ink": "#302ff7",
+        "text": "EASE"
+      },
+      "media": ""
+    },
+    {
+      "label": "Wide type",
+      "component": "showreel-study",
+      "seconds": 0.233,
+      "background": "#302ff7",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Wide type",
+        "ink": "#f2efe7",
+        "text": "OUT."
+      },
+      "media": ""
+    },
+    {
+      "label": "Type echo",
+      "component": "showreel-study",
+      "seconds": 0.467,
+      "background": "#e3ff46",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Type echo",
+        "ink": "#0f0f11",
+        "text": "NEVER"
+      },
+      "media": ""
+    },
+    {
+      "label": "Full stop",
+      "component": "showreel-study",
+      "seconds": 0.367,
+      "background": "#0f0f11",
+      "accent": "#f04b3a",
+      "variables": {
+        "scene": "Full stop",
+        "ink": "#f2efe7",
+        "text": "LINEAR."
+      },
+      "media": ""
+    },
+    {
+      "label": "End card",
+      "component": "showreel-study",
+      "seconds": 2.044,
+      "background": "#f04b3a",
+      "accent": "#f2efe7",
+      "variables": {
+        "scene": "End card",
+        "ink": "#0f0f11",
+        "text": "CLAUDE",
+        "caption": "motion designer"
+      },
+      "media": ""
+    }
+  ]
+}

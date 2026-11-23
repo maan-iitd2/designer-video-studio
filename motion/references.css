@@ -4,3 +4,5 @@
 .ref-project{padding:20px clamp(16px,4vw,38px);border-block:1px solid var(--line);background:#f0f1e9}.ref-project a{display:inline-block;padding:10px 14px;background:#253b31;color:white;text-decoration:none;font-weight:600;border-radius:3px}.ref-project p{margin:8px 0 0;font-size:.88rem;color:#39463f}
 
 .ref-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;align-items:start;gap:5px;padding:clamp(10px,1.7vw,25px);background:#e4dbcf;color:#493928;overflow:hidden}.ref-placeholder[data-tint="1"]{background:#d8e1dc;color:#203f3a}.ref-placeholder[data-tint="2"]{background:#e4dcd7;color:#603a35}.ref-placeholder[data-tint="3"]{background:#dcdfe9;color:#384461}.ref-placeholder small{font:500 .73rem system-ui;color:inherit;margin:0}.ref-placeholder em{font:italic clamp(1.1rem,2.25vw,2.3rem)/1 Georgia,serif;letter-spacing:-.045em;max-width:94%;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.ref-thumb img,.ref-cover img{position:absolute;inset:0;opacity:0}.ref-thumb img.ready,.ref-cover img.ready{opacity:1}.ref-cover button{position:relative}
+
+.ref-project a[hidden]{display:none}

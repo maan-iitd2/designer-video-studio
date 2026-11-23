@@ -80,7 +80,8 @@ def assembled(edit,read_component):
         if shot.get("media"): continue
         component=shot["component"]
         name=f"{component}-shot-{i}"
-        files[f"instances/{name}.html"]=read_component(component).replace(component,name)
+        source=read_component(component).replace(component,name)
+        files[f"instances/{name}.html"]=source.replace("__STUDIO_SHOT_SECONDS__",str(number(shot["seconds"],True)))
     return files
 
 

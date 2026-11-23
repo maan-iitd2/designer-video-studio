@@ -36,7 +36,7 @@ function refresh(openAt){
     const card=el("details"),summary=el("summary"),swatch=el("span");
     const paint=()=>{swatch.style.background="linear-gradient(90deg,"+s.background+" 65%,"+s.accent+" 65%)"};
     swatch.className="swatch";paint();times.push(el("small"));
-    summary.append(swatch,el("strong",s.component.replaceAll("-"," ")),times[i]);card.append(summary);card.open=i===openAt;
+    summary.append(swatch,el("strong",s.label||s.component.replaceAll("-"," ")),times[i]);card.append(summary);card.open=i===openAt;
     const fields=el("div");fields.className="fields";card.append(fields);
     const duration=field(fields,"Duration in seconds",s.seconds,"number",v=>{s.seconds=v;timing()});duration.min=".001";
     field(fields,"Background",s.background,"color",v=>{s.background=v;paint()});

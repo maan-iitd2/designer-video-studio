@@ -16,6 +16,7 @@ HF=ROOT/"library/hyperframes"
 REGISTRY=HF/"registry/components"
 INDEX=ROOT/"motion/reference-index.json"
 PROFILES=ROOT/"motion/remake-profiles.json"
+REBUILDS=ROOT/"motion/rebuilds"
 FORMATS={"Landscape":(1920,1080),"Portrait":(1080,1920),"Square":(1080,1080)}
 # Order describes a suggested sequence in each visual vocabulary.
 TREATMENTS={
@@ -121,7 +122,11 @@ def variables(name, title, tags, i):
     return values
 
 
-def make_edit(row,profile):
+def make_edit(row,profile,use_rebuild=True):
+    recipe=REBUILDS/row["id"]/"recipe.json"
+    if use_rebuild and recipe.is_file():
+        ref=dict(id=row["id"],creator=row["creator"],post=row["post"],page=row["url"])
+        return dict(title=row["title"],reference=ref,**json.loads(recipe.read_text(encoding="utf8")))
     cues=[x for x in TREATMENTS if x in row["techniques"] or x in row["tags"]] or ["kinetic-type"]
     plan=list(dict.fromkeys(TREATMENTS[c][phase] for phase in range(3) for c in cues))
     # Give short suggested projects an opening, a development and a close.
@@ -144,9 +149,15 @@ def make_edit(row,profile):
 
 
 def project_files(edit):
+    rebuild=REBUILDS/edit["reference"]["id"]
+    def read_source(name):
+        source=rebuild/(name+".html")
+        return source.read_text(encoding="utf8") if source.is_file() else component_source(name)
     components={s["component"] for s in edit["shots"]}
-    files={f"components/{name}.html":component_source(name) for name in components}
-    files.update(assembled(edit,component_source))
+    files={f"components/{name}.html":read_source(name) for name in components}
+    files.update(assembled(edit,read_source))
+    if edit.get("audio") and (rebuild/edit["audio"]).is_file():
+        files[edit["audio"]]=(rebuild/edit["audio"]).read_bytes()
     editor=(ROOT/"motion/remake-editor.html").read_text(encoding="utf8")
     files["Edit.html"]=editor.replace("__STUDIO_EDIT__",json.dumps(edit,ensure_ascii=True).replace("<","\\u003c"))
     scripts=Path(__file__).resolve().parent
@@ -174,7 +185,7 @@ def build_gallery(site):
             files=project_files(make_edit(row,profiles.get(slug)))
             with ZipFile(out/(slug+".zip"),"w",ZIP_DEFLATED) as z:
                 for name in sorted(files):
-                    data=files[name].encode("utf8")
+                    data=files[name] if isinstance(files[name],bytes) else files[name].encode("utf8")
                     z.writestr(name,data)
                     bundle.writestr(slug+"/"+name,data)
             label=escape(row["title"])+" · @"+escape(row["creator"])
@@ -210,7 +221,7 @@ def main():
         if args.media_position is not None or not profile:
             from analyze_references import analyze
             _,profile=analyze((row,chosen,manifest.parent))
-    edit=make_edit(row,profile)
+    edit=make_edit(row,profile,use_rebuild=not args.source_cut and args.media_position is None)
     if args.media_position is not None: edit["reference"]["media_position"]=args.media_position
     if media:
         audio_stream=subprocess.check_output(["ffprobe","-v","error","-select_streams","a:0",
@@ -228,7 +239,7 @@ def main():
     for name,content in files.items():
         dest=folder/name
         dest.parent.mkdir(exist_ok=True)
-        dest.write_bytes(content.encode("utf8"))
+        dest.write_bytes(content if isinstance(content,bytes) else content.encode("utf8"))
     print(folder.resolve())
 
 

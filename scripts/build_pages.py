@@ -3,7 +3,7 @@ import json
 import os
 import shutil
 from pathlib import Path
-from remake import build_gallery
+from remake import REBUILDS, build_gallery
 
 
 root = Path(__file__).resolve().parents[1]
@@ -40,6 +40,11 @@ index = json.loads((motion / "reference-index.json").read_text(encoding="utf8"))
 measured = json.loads((motion / "remake-profiles.json").read_text(encoding="utf8"))
 for entry in index["entries"]:
     entry["remakeBasis"] = "measured" if entry["id"] in measured else "suggested"
+    if (REBUILDS / entry["id"] / "recipe.json").is_file():
+        preview=motion / "previews" / (entry["id"]+"-rebuild.mp4")
+        if not preview.is_file():
+            raise ValueError("Missing exported project preview for "+entry["id"])
+        entry["remakeBasis"] = "rebuilt"
 (site / "reference-index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf8")
 shutil.copytree(motion / "previews", site / "previews", dirs_exist_ok=True)
 for study in json.loads((motion / "films.json").read_text(encoding="utf-8")):
