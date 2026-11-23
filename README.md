@@ -1,14 +1,20 @@
 # Designer Video Studio
 
-**[Browse the shot library](https://maan-iitd2.github.io/designer-video-studio/)**. Search by subject or movement, play a preview and copy the shot ID. You can share a specific shot by copying the browser address while its card is open. [Try the card-stack shot](https://maan-iitd2.github.io/designer-video-studio/#shotcraft%2Fcard-stack).
+**[Browse Motion Index](https://maan-iitd2.github.io/designer-video-studio/)**. Watch an original short film, add your subject and copy its brief into a regular Claude chat. Each brief includes the source that drew the preview, a timed sequence and a critique pass. Try [Lunar Contact](https://maan-iitd2.github.io/designer-video-studio/#lunar-contact) for an archive-led story or [Offbeat](https://maan-iitd2.github.io/designer-video-studio/#offbeat) for kinetic type.
 
-## Make a video
+## Make a film in Claude chat
+
+1. Open a film and choose its format, script mode and subject.
+2. Select **Copy Claude brief**, open Claude and paste it into a new chat. Attach your own photos or sketches. **Save reference frames** gives you three frames to attach if the layout matters.
+3. Review the short animated pilot before asking for the full cut. The brief asks for an editable HTML artifact. MP4 output depends on the tools available in your chat.
+
+## Work locally with Claude Code
 
 1. Clone this repository using GitHub Desktop or run `git clone https://github.com/maan-iitd2/designer-video-studio.git`.
 2. Open the cloned folder as a project in Claude Code.
 3. Describe your video. For example, “I have a sketch and a screen recording. Use shotcraft/card-stack to introduce my lettering project.” Claude helps you choose a look, checks which assets you have and builds a short pilot for review.
 
-The [starter guide](START%20HERE.md) covers local previews and revisions. The website works on its own for browsing. The [video director skill](.claude/skills/direct-video/SKILL.md) and the renderers work in the cloned project.
+The [starter guide](START%20HERE.md) covers local previews and revisions. The [video director skill](.claude/skills/direct-video/SKILL.md) and the renderers work in the cloned project. Browse the [803-entry shot archive](https://maan-iitd2.github.io/designer-video-studio/archive/) when you want individual components.
 
 ## Tools and sources
 

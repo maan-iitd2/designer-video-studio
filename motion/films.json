@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lunar-contact",
+    "title": "Lunar Contact",
+    "genre": "Archive",
+    "blurb": "An Apollo portrait opens like a magazine spread. A bootprint leads into a three-frame lunar contact sheet.",
+    "inputs": "Three photographs of the same subject, a place and a date.",
+    "beats": [
+      "0–3s / Pair one arresting photograph with a two-line serif title and a fine orange rule.",
+      "3–5.5s / Push into a photographic detail. Draw one precise annotation to what the viewer should notice.",
+      "5.5–8s / Pull back to three numbered exposures, then hold the final spread."
+    ],
+    "palette": [
+      "#ede7d9",
+      "#20221f",
+      "#de5133"
+    ],
+    "photos": {
+      "portrait": "portrait.jpg",
+      "footprint": "footprint.jpg",
+      "flag": "flag.jpg"
+    },
+    "credits": [
+      [
+        "NASA · lunar portrait",
+        "https://images.nasa.gov/details/as11-40-5903"
+      ],
+      [
+        "NASA · bootprint",
+        "https://images.nasa.gov/details/as11-40-5880"
+      ],
+      [
+        "NASA · surface photograph",
+        "https://images.nasa.gov/details/as11-40-5875"
+      ]
+    ]
+  },
+  {
+    "id": "offbeat",
+    "title": "Offbeat",
+    "genre": "Kinetic type",
+    "blurb": "A two-word title falls out of step with a row of bars. A run of abrupt verbs resolves into a single phrase.",
+    "inputs": "A short title and three to five punchy words. Works with type alone.",
+    "beats": [
+      "0–2.75s / Split a large title over two lines. Send a wave across a row of printed bars.",
+      "2.75–5.25s / Cut to vermilion. Swap one oversized verb on each half-second beat; vary serif and grotesk weights.",
+      "5.25–8s / Land on a cream end card. Bring the last word into register, then let the orbit carry the remaining rhythm."
+    ],
+    "palette": [
+      "#253bd3",
+      "#ff633d",
+      "#fbefcc"
+    ],
+    "photos": {},
+    "credits": []
+  },
+  {
+    "id": "one-take",
+    "title": "One Take",
+    "genre": "Paper collage",
+    "blurb": "A vintage movie camera breaks the edge of a printed title, then reappears inside the frames of a filmstrip.",
+    "inputs": "One sharply cut-out object or a clear photo on a simple background.",
+    "beats": [
+      "0–2.9s / Set an oversized black and red title on textured paper. Let the object overlap the title zone.",
+      "2.9–5.55s / Turn the page to blue. Enlarge the same object, mark one feature and give it a short label.",
+      "5.55–8s / Pull the object into successive film frames. Stop on a legible end title."
+    ],
+    "palette": [
+      "#eee3ce",
+      "#cc3f27",
+      "#354a7b"
+    ],
+    "photos": {
+      "camera": "camera.webp"
+    },
+    "credits": [
+      [
+        "Clipoemsart · camera photograph, CC0",
+        "https://commons.wikimedia.org/wiki/File:Bell_%26_Howell_%22Director_Series%22_Model_414_-_414p_8mm_film_camera_-_%22Zapruder_Camera%22_05.jpg"
+      ]
+    ]
+  },
+  {
+    "id": "swatch",
+    "title": "Swatchbook",
+    "genre": "Product film",
+    "blurb": "Five printed swatches fan across the table. A single selection turns the deck into a saved palette.",
+    "inputs": "A product name, one interaction and a small set of colours or options.",
+    "beats": [
+      "0–3s / Introduce the product beside a fan of five material cards. Let the stagger travel through the deck.",
+      "3–5.65s / Straighten the cards into a picker. Move the cursor to one selection and lift it on contact.",
+      "5.65–8s / Fill the frame with the selected colour and reveal the complete saved palette as proportional strips."
+    ],
+    "palette": [
+      "#1d3025",
+      "#b2c487",
+      "#f0a78c"
+    ],
+    "photos": {},
+    "credits": []
+  }
+]

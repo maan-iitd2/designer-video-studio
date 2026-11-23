@@ -27,6 +27,8 @@ Treat the designer as the creative director. Speak in her language. Open with th
 
 ## Spend discipline
 
+For an aesthetic review, aim for 9/10 per applicable axis: composition and hierarchy, typography and phone readability, visual originality and fit to the story, and motion and timing. Review the rendered frames and the transitions between them. Check audio sync when audio is present. Cite the timestamp of the weakest decision and revise that beat, then compare before and after. Mark anything you could not view as unverified. Let the designer decide if the film lands.
+
 Use a lower-cost available model for intake, scripting, asset inventory and filling scene parameters. If the host cannot switch models, keep the current task narrow and tell her how to choose a smaller available model if it matters. One coordinator by default. For a difficult shot, price a single targeted escalation. Avoid generating bespoke shot engines, repeated reference studies or open-ended critic passes.
 
 Work without a preset spending target. Reuse local assets and rendering. If she gives a budget for a film, record it and compare paid commitments and expected finishing costs against it. Quote any new paid media or provider work before committing to it. Keep actual expenses separate from estimates.

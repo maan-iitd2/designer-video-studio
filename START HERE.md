@@ -1,5 +1,9 @@
 # Make a video
 
+For regular Claude chat, open [Motion Index](https://maan-iitd2.github.io/designer-video-studio/), pick a film, fill in your idea and choose **Copy Claude brief**. Paste it into a new Claude conversation. Add your own images and, if useful, the reference frames from the film page.
+
+## Use the local Claude Code workflow
+
 1. Clone [the studio repository](https://github.com/maan-iitd2/designer-video-studio) or extract its ZIP into its own folder. Open **designer-video-studio** as the project in **Claude Code** on your computer.
 2. Type your idea. For example, **“I want a reel about my lettering project. I have sketches and a screen recording. Help me choose a look.”** If you prefer a command, type `/direct-video` followed by your idea.
 3. Pick a visual direction. You can reply with a number, a link, a screenshot, a timestamp, or “choose for me.” English and Hinglish both work.
@@ -12,7 +16,7 @@ You can start with just an idea. If you already have photos, footage, a voice no
 
 ## Browse the shot library
 
-Open [the online gallery](https://maan-iitd2.github.io/designer-video-studio/) on a phone or computer. Each shot links to its editable source and the original tool.
+Open [the online shot archive](https://maan-iitd2.github.io/designer-video-studio/archive/) on a phone or computer. Each shot links to its editable source and the original tool.
 
 In Windows Explorer, right-click the ZIP and choose **Extract All**. In the extracted **designer-video-studio** folder, double-click **Open Shot Library.html**. The gallery opens in your browser. Search for a subject or move, open a card and copy its ID. Try “Use this shot for the middle of my reel” with the ID. The catalog, source files, stills and bundled MP4s open locally. Individual templates may use web fonts, media or renderer packages.
 

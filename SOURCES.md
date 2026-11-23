@@ -1,5 +1,15 @@
 # Sources included in the handoff
 
+## Motion Index
+
+The four featured films use original studio compositions and prompts. The editable drawing code is in [motion/scenes](motion/scenes). The reference frames and MP4s come from that code. Offbeat includes an original synthesized rhythm. The [render script](scripts/render_studies.py) produces the previews.
+
+Lunar Contact uses three Apollo 11 photographs from NASA’s image library. [Aldrin on the lunar surface](https://images.nasa.gov/details/as11-40-5903) · [Boot and bootprint](https://images.nasa.gov/details/as11-40-5880) · [Surface photograph](https://images.nasa.gov/details/as11-40-5875)
+
+One Take uses Clipoemsart’s CC0 Bell & Howell camera photograph from the paper starter. [Original photograph](https://commons.wikimedia.org/wiki/File:Bell_%26_Howell_%22Director_Series%22_Model_414_-_414p_8mm_film_camera_-_%22Zapruder_Camera%22_05.jpg)
+
+The creator references link to the authors’ examples on Prompt Motion. Their films and prompts remain with their creators. [Prompt Motion](https://prompt-motion.com/about)
+
 ## Downloaded shot collections
 
 The [local catalog](library/index.html) indexes 803 entries. The 150 Shotcraft variants belong to 124 recipes. Herk cards and HyperFrames components are individual building blocks. Nine HyperFrames entries are full example sequences. Each entry has a stable studio ID and a local source path.

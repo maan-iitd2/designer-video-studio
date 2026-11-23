@@ -9,11 +9,13 @@ root = Path(__file__).resolve().parents[1]
 library = root / "library"
 site = root / "_site"
 site.mkdir(exist_ok=True)
+(site / "archive").mkdir(exist_ok=True)
 repo = os.environ.get("GITHUB_REPOSITORY", "maan-iitd2/designer-video-studio")
 ref = os.environ.get("GITHUB_SHA", "main")
 page = (library / "index.html").read_text(encoding="utf-8")
 page = page.replace('data-source-base=""', f'data-source-base="https://github.com/{repo}/blob/{ref}/library/"')
-(site / "index.html").write_text(page, encoding="utf-8")
+archive_page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8"><base href="../">', 1)
+(site / "archive" / "index.html").write_text(archive_page, encoding="utf-8")
 for name in ("gallery.css", "catalog.js", "gallery.js"):
     shutil.copyfile(library / name, site / name)
 for line in (library / "catalog.jsonl").read_text(encoding="utf-8").splitlines():
@@ -28,3 +30,16 @@ for line in (library / "catalog.jsonl").read_text(encoding="utf-8").splitlines()
             dest = site / relative
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(library / relative, dest)
+
+motion = root / "motion"
+for name in ("index.html", "motion.css", "motion.js", "films.json"):
+    shutil.copyfile(motion / name, site / name)
+shutil.copytree(motion / "previews", site / "previews", dirs_exist_ok=True)
+for study in json.loads((motion / "films.json").read_text(encoding="utf-8")):
+    slug = study["id"]
+    for suffix in (".mp4", ".webp", "-frames.jpg"):
+        if not (site / "previews" / (slug + suffix)).is_file():
+            raise ValueError(f"Missing {slug}{suffix}")
+    source = (motion / "scenes/stage.js").read_text(encoding="utf-8")
+    source += "\n" + (motion / "scenes" / (slug + ".js")).read_text(encoding="utf-8")
+    (site / "previews" / (slug + "-motion.txt")).write_text(source, encoding="utf-8")

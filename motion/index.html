@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f7f2"><meta name="description" content="Watch original motion studies, choose a visual direction and adapt a film in a regular Claude chat.">
+<title>Motion Index · Designer Video Studio</title>
+<link rel="stylesheet" href="motion.css">
+</head>
+<body>
+<header class="top"><div class="wrap top-inner">
+<a class="brand" href="./"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Designer Video Studio</a>
+<nav aria-label="Navigation"><a href="#references">Creator references</a><a href="archive/">Shot archive ↗</a></nav></div></header>
+<main class="wrap">
+<section class="mast"><h1>Motion <em>Index</em></h1><p>A library of short films to remake in Claude.<br>Pick a look and bring your own story.</p></section>
+<section aria-label="Original motion studies">
+<div class="bar"><div id="filters" role="group" aria-label="Filter films"></div><button type="button" class="motion-option" id="motion-toggle" aria-pressed="true">Hover previews on</button></div>
+<div id="films" class="films" aria-live="polite"></div>
+<noscript>Enable JavaScript to play the films and customize their prompts.</noscript>
+</section>
+<section id="references" class="refs">
+<div class="ref-intro"><h2>Creator <em>references</em></h2><p>Watch the original and read the creator’s prompt on Prompt Motion.</p></div>
+<div id="ref-list" class="ref-list"></div>
+</section>
+</main>
+<footer class="wrap"><span>Designer Video Studio</span><a href="https://github.com/maan-iitd2/designer-video-studio#tools-and-sources">Source files &amp; tools ↗</a></footer>
+<dialog id="editor" aria-labelledby="film-title">
+<div class="dialog-top"><span class="brand small"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Designer Video Studio</span><button id="close" class="close" aria-label="Close film">Close ×</button></div>
+<div class="split">
+<section class="film-side"><video id="player" playsinline muted loop controls preload="metadata"></video>
+<div class="film-copy"><p id="film-meta" class="meta"></p><h2 id="film-title"></h2><p id="summary"></p>
+<details><summary>Timing &amp; source credits</summary><ol id="beats"></ol><div id="credits"></div></details>
+<a class="text-link" id="board" download>Save reference frames ↓</a></div></section>
+<section class="brief"><h3>Make it yours</h3><p class="intro">Copy a brief into a regular Claude chat. Attach your images there.</p>
+<form id="brief-form"><label>Your idea<textarea id="idea" rows="2" placeholder="A short film about my lettering project…"></textarea></label>
+<div class="pair"><label>Format<select id="format"><option>Landscape · 16:9</option><option>Portrait · 9:16</option><option>Square · 1:1</option></select></label>
+<label>Script<select id="script"><option>Shape my notes</option><option>Write a draft</option><option>Use my exact words</option><option>Visuals only</option></select></label></div>
+<label id="words-label">Words or notes<textarea id="words" rows="2" placeholder="A line to use, facts, or what to leave out…"></textarea></label>
+<label>Material you have<input id="assets" type="text" placeholder="Two sketches and a finished poster"></label>
+<details id="prompt-disclosure"><summary>Read the brief</summary><textarea id="brief-preview" rows="8" aria-label="Brief to copy" readonly></textarea></details>
+<div class="actions"><button type="button" class="primary" id="copy">Copy Claude brief</button><a class="secondary" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude ↗</a></div>
+<p role="status" id="status"></p>
+</form>
+<a id="source" class="text-link" download>Save motion source for Claude ↓</a>
+<details><summary>Review an existing draft</summary><p class="intro">Use a fresh Claude chat with your draft, or with timestamped frames and your intended look.</p><button type="button" class="secondary" id="copy-review">Copy critique prompt</button><textarea id="review-fallback" aria-label="Critique to copy" rows="5" readonly hidden></textarea><p id="review-status" role="status"></p></details>
+</section></div></dialog>
+<script src="motion.js" defer></script>
+</body></html>
