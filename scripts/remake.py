@@ -63,6 +63,8 @@ For the original footage, install FFmpeg (including ffprobe), then run python Ge
 double-click Get footage.cmd on Windows. The tool checks the creator's download setting and saves
 available MP4s in footage/. Open edit-footage-1.json in the shot editor or run
 python project.py render --edit edit-footage-1.json to export the original clips on the editable timeline.
+An untouched footage cut preserves the original MP4. Trimming or reordering one video uses FFmpeg
+directly. Mixed media and motion components render through HyperFrames.
 
 The reference field credits the original creator and links to the source. When present,
 creator_workflow is a creator-published resource. The Studio selected the motion components.
