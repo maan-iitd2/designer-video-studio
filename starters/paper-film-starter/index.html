@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Paper film preview</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#16201f;color:white;font:16px system-ui}main{position:absolute;width:1920px;height:1080px;overflow:hidden;transform-origin:top left;background:#e2e2c4}footer{position:fixed;bottom:0;width:100%;padding:12px;display:flex;gap:14px;align-items:center}input{flex:1}button{padding:6px 15px}output{min-width:5em}
+</style>
+<main id="stage" aria-label="Film"></main><footer><button disabled id="play">Play</button><input aria-label="Timeline" type="range" min="0" value="0" step=".01" id="scrub"><output id="time"></output></footer>
+<script src="lib/core.js"></script><script src="lib/paper-kit.js"></script><script src="film.js"></script></html>

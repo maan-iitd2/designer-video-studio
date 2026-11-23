@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Open Shot Library</title>
+<style>
+body { max-width: 40rem; margin: 12vh auto; padding: 0 1.5rem; font: 1.1rem/1.5 system-ui, sans-serif; color: #23221f; background: #f6f5f0 }
+a { color: #883a20 }
+</style>
+<main>
+  <h1>Open the shot library</h1>
+  <p id="status">If you are viewing the ZIP, choose <strong>Extract All</strong> first. Open this file in the extracted folder.</p>
+  <p><a href="library/index.html">Browse the shot library</a></p>
+</main>
+<script src="library/catalog.js"></script>
+<script>
+  if (Array.isArray(window.studioCatalog)) {
+    location.replace(new URL("library/index.html" + location.hash, location.href));
+  } else {
+    document.getElementById("status").textContent =
+      "This file needs the library folder beside it. Extract the entire Designer Video Studio ZIP, then double-click Open Shot Library in the extracted folder.";
+  }
+</script>
+</html>

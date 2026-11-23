@@ -1,0 +1,32 @@
+{
+  "audio": null,
+  "shots": [
+    {
+      "start": 0,
+      "duration": 2.6,
+      "layout": "masthead",
+      "title": "Explore",
+      "caption": "Start with a question.",
+      "image": "assets/globe_cut.png",
+      "cue": 0.35
+    },
+    {
+      "start": 2.6,
+      "duration": 2.8,
+      "layout": "exhibit",
+      "title": "Build it.",
+      "caption": "Make a first version.",
+      "image": "assets/keyboard_cut.png",
+      "cue": 0.45
+    },
+    {
+      "start": 5.4,
+      "duration": 2.6,
+      "layout": "reveal",
+      "title": "Show it.",
+      "caption": "Let someone try it.",
+      "image": "assets/cine_camera_cut.png",
+      "cue": 0.3
+    }
+  ]
+}
